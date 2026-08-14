@@ -70,43 +70,19 @@ The application combines a tested scientific analysis engine with a local SQLite
 
 The application uses a lightweight layered architecture that keeps the desktop interface, application workflows, scientific analysis, and persistence concerns separated.
 
-```mermaid
-graph TD
-    UI["PyQt6 User Interface"]
-    SERVICES["Application Services"]
-    ENGINE["Analysis Engine"]
-    REPO["Repository Layer"]
-    DB["SQLite Database"]
-
-    UI --> SERVICES
-    SERVICES --> ENGINE
-    ENGINE --> REPO
-    REPO --> DB
-```
+<p align="center">
+  <img src="docs/images/architecture-layers.png" alt="Grovity Irrigation Water layered architecture" width="520">
+</p>
 
 ### Data Flow
 
-```mermaid
-graph LR
-    INPUT["CSV / XLSX"]
-    VALIDATE["Validation"]
-    SAMPLE["WaterSample"]
-    ENGINE["FAO Analysis Engine"]
-    STORE["SQLite"]
-    QUERY["Dashboard Query"]
-    DASHBOARD["PyQt6 Dashboard"]
-
-    INPUT --> VALIDATE
-    VALIDATE --> SAMPLE
-    SAMPLE --> ENGINE
-    ENGINE --> STORE
-    STORE --> QUERY
-    QUERY --> DASHBOARD
-```
+<p align="center">
+  <img src="docs/images/data-flow.png" alt="Grovity Irrigation Water data flow" width="760">
+</p>
 
 The UI does not execute scientific calculations or raw SQL directly. Invalid input is rejected before analysis, while valid samples are normalized, analyzed, persisted, and exposed to the dashboard through query services.
 
-> For the complete validation, normalization, FAO, EC–SAR, and persistence flow, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+> For the complete validation, normalization, FAO, EC-SAR, and persistence flow, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ---
 
