@@ -118,6 +118,13 @@ irrigation-water-dashboard/
 
 ---
 
+## Bundled starter dataset
+
+The repository includes the curated 300-record RFP dataset under `data/fixtures/rfp/`. On the first normal application launch, an empty local SQLite database is automatically populated from `rfp_input_20_sources.csv`. Existing databases are never overwritten or reseeded.
+
+To disable this behavior for a specific run, set `GROVITY_IRRIGATION_AUTO_SEED=0`.
+
+
 ## Quick Start
 
 ### 1. Create and activate a virtual environment
