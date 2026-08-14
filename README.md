@@ -71,61 +71,37 @@ The application combines a tested scientific analysis engine with a local SQLite
 The application uses a lightweight layered architecture that keeps the desktop interface, application workflows, scientific analysis, and persistence concerns separated.
 
 ```mermaid
-flowchart TB
-    UI["PyQt6 User Interface<br/>Dashboard · Analysis · Archive"]
-    SERVICES["Application Services<br/>Query · Analysis · Import"]
-    ENGINE["Analysis Engine<br/>Validation · Unit Conversion · FAO"]
+graph TD
+    UI["PyQt6 User Interface"]
+    SERVICES["Application Services"]
+    ENGINE["Analysis Engine"]
     REPO["Repository Layer"]
-    DB[("SQLite Database")]
+    DB["SQLite Database"]
 
     UI --> SERVICES
     SERVICES --> ENGINE
     ENGINE --> REPO
     REPO --> DB
-
-    classDef ui fill:#0f766e,color:#ffffff,stroke:#2dd4bf,stroke-width:2px;
-    classDef service fill:#1e3a5f,color:#ffffff,stroke:#60a5fa,stroke-width:2px;
-    classDef core fill:#4c1d95,color:#ffffff,stroke:#a78bfa,stroke-width:2px;
-    classDef data fill:#78350f,color:#ffffff,stroke:#fbbf24,stroke-width:2px;
-    classDef database fill:#7f1d1d,color:#ffffff,stroke:#fb7185,stroke-width:2px;
-
-    class UI ui;
-    class SERVICES service;
-    class ENGINE core;
-    class REPO data;
-    class DB database;
 ```
 
 ### Data Flow
 
 ```mermaid
-flowchart LR
+graph LR
     INPUT["CSV / XLSX"]
     VALIDATE["Validation"]
     SAMPLE["WaterSample"]
     ENGINE["FAO Analysis Engine"]
-    STORE[("SQLite")]
+    STORE["SQLite"]
     QUERY["Dashboard Query"]
-    UI["PyQt6 Dashboard"]
+    DASHBOARD["PyQt6 Dashboard"]
 
     INPUT --> VALIDATE
     VALIDATE --> SAMPLE
     SAMPLE --> ENGINE
     ENGINE --> STORE
     STORE --> QUERY
-    QUERY --> UI
-
-    classDef input fill:#164e63,color:#ffffff,stroke:#22d3ee,stroke-width:2px;
-    classDef model fill:#1e3a8a,color:#ffffff,stroke:#60a5fa,stroke-width:2px;
-    classDef engine fill:#4c1d95,color:#ffffff,stroke:#c084fc,stroke-width:2px;
-    classDef storage fill:#14532d,color:#ffffff,stroke:#4ade80,stroke-width:2px;
-    classDef output fill:#115e59,color:#ffffff,stroke:#2dd4bf,stroke-width:2px;
-
-    class INPUT input;
-    class VALIDATE,SAMPLE model;
-    class ENGINE engine;
-    class STORE storage;
-    class QUERY,UI output;
+    QUERY --> DASHBOARD
 ```
 
 The UI does not execute scientific calculations or raw SQL directly. Invalid input is rejected before analysis, while valid samples are normalized, analyzed, persisted, and exposed to the dashboard through query services.
