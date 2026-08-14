@@ -38,3 +38,9 @@ Thumbs.db
 _source/
 _source/
 *.egg-info/
+
+# Local code backups
+*.bak
+*.bak2
+*.before_*
+*.pre_*

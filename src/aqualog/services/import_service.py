@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+from collections.abc import Callable
 
 from aqualog.data.importers import ImportIssue, TabularWaterSampleImporter
 from aqualog.domain.models import AnalysisResult
@@ -43,6 +44,7 @@ class ImportService:
         *,
         persist: bool = True,
         continue_on_error: bool = True,
+        progress_callback: Callable[[int, int], None] | None = None,
     ) -> ImportAnalysisReport:
         file_path = Path(path)
         imported = self.importer.load(
@@ -53,6 +55,7 @@ class ImportService:
             imported.samples,
             persist=persist,
             continue_on_error=continue_on_error,
+            progress_callback=progress_callback,
         )
         return ImportAnalysisReport(
             file_path=file_path,

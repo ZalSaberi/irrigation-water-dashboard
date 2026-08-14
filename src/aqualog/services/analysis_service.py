@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from collections.abc import Callable
 
 from aqualog.core.engine import IrrigationAnalysisEngine
 from aqualog.data.database import SQLiteDatabase
@@ -50,8 +51,6 @@ class AnalysisService:
     def analyze(self, sample: WaterSample, *, persist: bool = True) -> AnalysisResult:
         result = self.engine.analyze(sample)
         if persist:
-            # Persist input + output atomically. A failed result write never leaves a
-            # half-saved sample behind.
             with self.database.transaction() as connection:
                 self.sources.upsert_from_sample(sample, connection=connection)
                 self.samples.upsert(sample, connection=connection)
@@ -69,14 +68,19 @@ class AnalysisService:
         *,
         persist: bool = True,
         continue_on_error: bool = True,
+        progress_callback: Callable[[int, int], None] | None = None,
     ) -> BatchAnalysisReport:
         results: list[AnalysisResult] = []
         failures: list[AnalysisFailure] = []
-        for sample in samples:
+        total = len(samples)
+        for index, sample in enumerate(samples, start=1):
             try:
                 results.append(self.analyze(sample, persist=persist))
             except Exception as exc:
                 failures.append(AnalysisFailure(sample.sample_id, str(exc)))
                 if not continue_on_error:
                     raise
+            finally:
+                if progress_callback is not None:
+                    progress_callback(index, total)
         return BatchAnalysisReport(tuple(results), tuple(failures))
