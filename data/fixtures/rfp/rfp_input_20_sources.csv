@@ -1,0 +1,301 @@
+﻿sample_id,source_id,source_type,sub_basin,river,sample_date,pH,EC_value,EC_unit,TDS_value,TDS_unit,SAR,SAR_unit
+AQ-01-01,26-023,River monitoring station,Mehran,Roudbal,1967-01-28,8.1,370.0,µS/cm,233.0,mg/L,0.529,dimensionless
+AQ-01-02,26-023,River monitoring station,Mehran,Roudbal,1970-01-27,8.1,351.0,µS/cm,231.0,mg/L,0.845,dimensionless
+AQ-01-03,26-023,River monitoring station,Mehran,Roudbal,1973-01-23,7.3,435.0,µS/cm,280.0,mg/L,1.163,dimensionless
+AQ-01-04,26-023,River monitoring station,Mehran,Roudbal,1976-09-18,7.6,435.0,µS/cm,275.0,mg/L,0.368,dimensionless
+AQ-01-05,26-023,River monitoring station,Mehran,Roudbal,1987-07-06,8.2,428.0,µS/cm,282.0,mg/L,0.574,dimensionless
+AQ-01-06,26-023,River monitoring station,Mehran,Roudbal,1990-08-06,8.0,396.0,µS/cm,240.0,mg/L,0.803,dimensionless
+AQ-01-07,26-023,River monitoring station,Mehran,Roudbal,1994-01-21,7.9,357.0,µS/cm,228.0,mg/L,0.498,dimensionless
+AQ-01-08,26-023,River monitoring station,Mehran,Roudbal,1997-05-05,7.7,382.0,µS/cm,276.0,mg/L,0.5,dimensionless
+AQ-01-09,26-023,River monitoring station,Mehran,Roudbal,2000-11-25,8.2,499.0,µS/cm,324.0,mg/L,0.508,dimensionless
+AQ-01-10,26-023,River monitoring station,Mehran,Roudbal,2006-08-03,8.1,392.0,µS/cm,343.0,mg/L,0.74,dimensionless
+AQ-01-11,26-023,River monitoring station,Mehran,Roudbal,2009-07-12,7.57,580.0,µS/cm,419.0,mg/L,0.289,dimensionless
+AQ-01-12,26-023,River monitoring station,Mehran,Roudbal,2013-01-20,7.7,428.0,µS/cm,316.0,mg/L,0.019,dimensionless
+AQ-01-13,26-023,River monitoring station,Mehran,Roudbal,2016-08-03,8.26,566.0,µS/cm,354.0,mg/L,0.193,dimensionless
+AQ-01-14,26-023,River monitoring station,Mehran,Roudbal,2018-11-23,7.66,540.0,µS/cm,358.0,mg/L,0.607,dimensionless
+AQ-01-15,26-023,River monitoring station,Mehran,Roudbal,2020-12-19,8.4,488.0,µS/cm,316.0,mg/L,1.036,dimensionless
+AQ-02-01,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1967-03-19,9.5,140.0,µS/cm,67.0,mg/L,0.783,dimensionless
+AQ-02-02,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1970-10-15,7.3,368.0,µS/cm,242.0,mg/L,0.601,dimensionless
+AQ-02-03,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1974-02-11,7.4,255.0,µS/cm,165.0,mg/L,1.026,dimensionless
+AQ-02-04,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1980-04-12,7.6,535.0,µS/cm,335.0,mg/L,1.401,dimensionless
+AQ-02-05,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1984-05-24,7.4,660.0,µS/cm,440.0,mg/L,1.385,dimensionless
+AQ-02-06,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1987-09-29,7.3,340.0,µS/cm,220.0,mg/L,0.44,dimensionless
+AQ-02-07,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1992-10-01,7.0,400.0,µS/cm,240.0,mg/L,0.499,dimensionless
+AQ-02-08,31-037,River monitoring station,Lake Urmia,Gmbrf chai,1998-04-20,7.57,735.0,µS/cm,478.0,mg/L,0.948,dimensionless
+AQ-02-09,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2001-10-22,8.2,492.0,µS/cm,301.0,mg/L,0.483,dimensionless
+AQ-02-10,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2004-03-04,8.4,190.0,µS/cm,134.0,mg/L,0.502,dimensionless
+AQ-02-11,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2008-06-06,7.4,1003.0,µS/cm,651.95,mg/L,0.577,dimensionless
+AQ-02-12,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2012-02-04,8.0,533.0,µS/cm,346.45,mg/L,0.718,dimensionless
+AQ-02-13,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2015-07-20,7.8,533.0,µS/cm,346.45,mg/L,0.687,dimensionless
+AQ-02-14,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2018-09-13,8.6,437.0,µS/cm,284.05,mg/L,0.607,dimensionless
+AQ-02-15,31-037,River monitoring station,Lake Urmia,Gmbrf chai,2020-12-10,8.5,356.0,µS/cm,231.4,mg/L,0.643,dimensionless
+AQ-03-01,12-007,River monitoring station,Gorgan,Oghan,1968-03-26,8.6,369.0,µS/cm,245.0,mg/L,1.131,dimensionless
+AQ-03-02,12-007,River monitoring station,Gorgan,Oghan,1973-02-26,7.3,460.0,µS/cm,300.0,mg/L,0.242,dimensionless
+AQ-03-03,12-007,River monitoring station,Gorgan,Oghan,1977-02-11,7.3,457.0,µS/cm,299.0,mg/L,0.46,dimensionless
+AQ-03-04,12-007,River monitoring station,Gorgan,Oghan,1981-12-10,6.9,485.0,µS/cm,300.0,mg/L,0.408,dimensionless
+AQ-03-05,12-007,River monitoring station,Gorgan,Oghan,1985-03-11,8.7,380.0,µS/cm,234.0,mg/L,0.676,dimensionless
+AQ-03-06,12-007,River monitoring station,Gorgan,Oghan,1988-07-12,6.9,406.0,µS/cm,278.0,mg/L,0.615,dimensionless
+AQ-03-07,12-007,River monitoring station,Gorgan,Oghan,1995-02-04,7.2,351.0,µS/cm,227.0,mg/L,0.706,dimensionless
+AQ-03-08,12-007,River monitoring station,Gorgan,Oghan,1998-05-04,8.2,386.0,µS/cm,249.0,mg/L,0.587,dimensionless
+AQ-03-09,12-007,River monitoring station,Gorgan,Oghan,2002-08-06,7.8,443.0,µS/cm,281.0,mg/L,0.834,dimensionless
+AQ-03-10,12-007,River monitoring station,Gorgan,Oghan,2005-10-20,7.7,612.0,µS/cm,421.0,mg/L,0.504,dimensionless
+AQ-03-11,12-007,River monitoring station,Gorgan,Oghan,2008-11-06,8.23,554.0,µS/cm,350.0,mg/L,0.791,dimensionless
+AQ-03-12,12-007,River monitoring station,Gorgan,Oghan,2011-12-07,7.45,554.0,µS/cm,350.0,mg/L,0.502,dimensionless
+AQ-03-13,12-007,River monitoring station,Gorgan,Oghan,2015-03-12,8.48,340.0,µS/cm,216.0,mg/L,0.754,dimensionless
+AQ-03-14,12-007,River monitoring station,Gorgan,Oghan,2018-05-08,8.29,510.0,µS/cm,324.0,mg/L,0.62,dimensionless
+AQ-03-15,12-007,River monitoring station,Gorgan,Oghan,2020-12-09,8.03,550.0,µS/cm,349.0,mg/L,0.561,dimensionless
+AQ-04-01,21-147,River monitoring station,Karkheh,Seimareh,1968-07-29,7.9,450.0,µS/cm,290.0,mg/L,0.566,dimensionless
+AQ-04-02,21-147,River monitoring station,Karkheh,Seimareh,1972-11-28,8.3,436.0,µS/cm,289.0,mg/L,0.475,dimensionless
+AQ-04-03,21-147,River monitoring station,Karkheh,Seimareh,1981-07-29,8.1,530.0,µS/cm,340.0,mg/L,0.543,dimensionless
+AQ-04-04,21-147,River monitoring station,Karkheh,Seimareh,1986-01-09,8.2,468.0,µS/cm,299.0,mg/L,0.359,dimensionless
+AQ-04-05,21-147,River monitoring station,Karkheh,Seimareh,1990-09-19,8.2,630.0,µS/cm,385.0,mg/L,0.478,dimensionless
+AQ-04-06,21-147,River monitoring station,Karkheh,Seimareh,1993-03-17,7.85,472.0,µS/cm,302.0,mg/L,0.329,dimensionless
+AQ-04-07,21-147,River monitoring station,Karkheh,Seimareh,1995-08-28,7.9,565.0,µS/cm,362.0,mg/L,0.478,dimensionless
+AQ-04-08,21-147,River monitoring station,Karkheh,Seimareh,1998-07-07,8.2,603.0,µS/cm,386.0,mg/L,0.547,dimensionless
+AQ-04-09,21-147,River monitoring station,Karkheh,Seimareh,2001-08-02,8.2,702.0,µS/cm,456.0,mg/L,1.487,dimensionless
+AQ-04-10,21-147,River monitoring station,Karkheh,Seimareh,2004-11-25,7.7,519.0,µS/cm,332.0,mg/L,0.433,dimensionless
+AQ-04-11,21-147,River monitoring station,Karkheh,Seimareh,2007-09-25,7.6,538.0,µS/cm,344.0,mg/L,0.397,dimensionless
+AQ-04-12,21-147,River monitoring station,Karkheh,Seimareh,2012-03-22,8.75,411.0,µS/cm,263.0,mg/L,1.501,dimensionless
+AQ-04-13,21-147,River monitoring station,Karkheh,Seimareh,2016-05-25,7.61,586.0,µS/cm,375.0,mg/L,0.49,dimensionless
+AQ-04-14,21-147,River monitoring station,Karkheh,Seimareh,2019-06-18,7.96,692.0,µS/cm,449.0,mg/L,0.72,dimensionless
+AQ-04-15,21-147,River monitoring station,Karkheh,Seimareh,2020-12-17,7.38,527.0,µS/cm,327.0,mg/L,0.319,dimensionless
+AQ-05-01,13-029,River monitoring station,Qaresou,Tajan,1968-03-08,8.5,520.0,µS/cm,350.0,mg/L,0.955,dimensionless
+AQ-05-02,13-029,River monitoring station,Qaresou,Tajan,1972-12-16,7.9,527.0,µS/cm,342.0,mg/L,0.747,dimensionless
+AQ-05-03,13-029,River monitoring station,Qaresou,Tajan,1976-01-12,8.15,535.0,µS/cm,350.0,mg/L,0.506,dimensionless
+AQ-05-04,13-029,River monitoring station,Qaresou,Tajan,1979-09-17,7.3,732.0,µS/cm,476.0,mg/L,1.043,dimensionless
+AQ-05-05,13-029,River monitoring station,Qaresou,Tajan,1984-05-21,8.0,611.0,µS/cm,395.0,mg/L,1.38,dimensionless
+AQ-05-06,13-029,River monitoring station,Qaresou,Tajan,1994-11-12,8.3,680.0,µS/cm,442.0,mg/L,0.724,dimensionless
+AQ-05-07,13-029,River monitoring station,Qaresou,Tajan,1998-01-17,7.9,770.0,µS/cm,504.0,mg/L,0.866,dimensionless
+AQ-05-08,13-029,River monitoring station,Qaresou,Tajan,2001-03-06,7.9,967.0,µS/cm,631.0,mg/L,2.271,dimensionless
+AQ-05-09,13-029,River monitoring station,Qaresou,Tajan,2003-09-10,7.8,509.0,µS/cm,332.0,mg/L,0.337,dimensionless
+AQ-05-10,13-029,River monitoring station,Qaresou,Tajan,2006-04-28,7.9,628.0,µS/cm,404.0,mg/L,0.296,dimensionless
+AQ-05-11,13-029,River monitoring station,Qaresou,Tajan,2010-11-28,7.5,1058.0,µS/cm,688.0,mg/L,1.764,dimensionless
+AQ-05-12,13-029,River monitoring station,Qaresou,Tajan,2013-07-30,7.9,405.0,µS/cm,261.0,mg/L,0.553,dimensionless
+AQ-05-13,13-029,River monitoring station,Qaresou,Tajan,2016-02-15,7.7,1328.0,µS/cm,876.0,mg/L,1.116,dimensionless
+AQ-05-14,13-029,River monitoring station,Qaresou,Tajan,2018-09-10,7.7,1130.0,µS/cm,735.0,mg/L,3.112,dimensionless
+AQ-05-15,13-029,River monitoring station,Qaresou,Tajan,2020-12-09,7.5,1046.0,µS/cm,692.0,mg/L,2.052,dimensionless
+AQ-06-01,46-003,River monitoring station,Saghand Desert,Haft kosak,1967-05-12,8.4,364.0,µS/cm,220.0,mg/L,2.263,dimensionless
+AQ-06-02,46-003,River monitoring station,Saghand Desert,Haft kosak,1973-11-27,7.7,595.0,µS/cm,390.0,mg/L,0.989,dimensionless
+AQ-06-03,46-003,River monitoring station,Saghand Desert,Haft kosak,1977-06-12,7.9,493.0,µS/cm,290.0,mg/L,0.594,dimensionless
+AQ-06-04,46-003,River monitoring station,Saghand Desert,Haft kosak,1981-01-17,8.2,365.0,µS/cm,240.0,mg/L,2.348,dimensionless
+AQ-06-05,46-003,River monitoring station,Saghand Desert,Haft kosak,1983-09-20,7.4,500.0,µS/cm,310.0,mg/L,1.432,dimensionless
+AQ-06-06,46-003,River monitoring station,Saghand Desert,Haft kosak,1986-03-07,8.2,403.0,µS/cm,220.0,mg/L,1.291,dimensionless
+AQ-06-07,46-003,River monitoring station,Saghand Desert,Haft kosak,1989-09-19,8.3,531.0,µS/cm,300.0,mg/L,1.061,dimensionless
+AQ-06-08,46-003,River monitoring station,Saghand Desert,Haft kosak,1994-12-15,7.8,454.0,µS/cm,245.0,mg/L,0.934,dimensionless
+AQ-06-09,46-003,River monitoring station,Saghand Desert,Haft kosak,1998-08-11,7.9,524.0,µS/cm,350.0,mg/L,1.193,dimensionless
+AQ-06-10,46-003,River monitoring station,Saghand Desert,Haft kosak,2000-10-13,7.9,530.0,µS/cm,355.0,mg/L,0.818,dimensionless
+AQ-06-11,46-003,River monitoring station,Saghand Desert,Haft kosak,2002-10-28,8.2,497.0,µS/cm,298.0,mg/L,1.25,dimensionless
+AQ-06-12,46-003,River monitoring station,Saghand Desert,Haft kosak,2007-07-24,8.8,590.0,µS/cm,384.0,mg/L,1.109,dimensionless
+AQ-06-13,46-003,River monitoring station,Saghand Desert,Haft kosak,2010-08-25,8.0,612.0,µS/cm,404.0,mg/L,1.449,dimensionless
+AQ-06-14,46-003,River monitoring station,Saghand Desert,Haft kosak,2014-04-16,7.4,530.0,µS/cm,344.0,mg/L,0.966,dimensionless
+AQ-06-15,46-003,River monitoring station,Saghand Desert,Haft kosak,2019-12-25,7.2,550.0,µS/cm,357.0,mg/L,1.306,dimensionless
+AQ-07-01,43-039,River monitoring station,Bakhtegan,Kor,1966-11-30,8.4,756.0,µS/cm,508.0,mg/L,1.533,dimensionless
+AQ-07-02,43-039,River monitoring station,Bakhtegan,Kor,1970-08-26,8.4,857.0,µS/cm,480.0,mg/L,2.242,dimensionless
+AQ-07-03,43-039,River monitoring station,Bakhtegan,Kor,1974-04-25,7.7,940.0,µS/cm,595.0,mg/L,2.313,dimensionless
+AQ-07-04,43-039,River monitoring station,Bakhtegan,Kor,1978-04-08,8.1,1050.0,µS/cm,686.0,mg/L,2.683,dimensionless
+AQ-07-05,43-039,River monitoring station,Bakhtegan,Kor,1982-01-09,8.1,785.0,µS/cm,485.0,mg/L,1.627,dimensionless
+AQ-07-06,43-039,River monitoring station,Bakhtegan,Kor,1985-12-13,7.2,3444.0,µS/cm,2190.0,mg/L,6.345,dimensionless
+AQ-07-07,43-039,River monitoring station,Bakhtegan,Kor,1989-10-11,7.6,1540.0,µS/cm,1014.0,mg/L,3.59,dimensionless
+AQ-07-08,43-039,River monitoring station,Bakhtegan,Kor,1993-04-15,7.8,987.0,µS/cm,586.0,mg/L,2.05,dimensionless
+AQ-07-09,43-039,River monitoring station,Bakhtegan,Kor,1997-08-27,8.6,1863.0,µS/cm,1059.0,mg/L,6.964,dimensionless
+AQ-07-10,43-039,River monitoring station,Bakhtegan,Kor,2002-01-02,7.0,1060.0,µS/cm,608.0,mg/L,1.358,dimensionless
+AQ-07-11,43-039,River monitoring station,Bakhtegan,Kor,2007-06-18,7.37,1040.0,µS/cm,674.0,mg/L,1.991,dimensionless
+AQ-07-12,43-039,River monitoring station,Bakhtegan,Kor,2012-09-14,7.05,1790.0,µS/cm,1150.0,mg/L,0.797,dimensionless
+AQ-07-13,43-039,River monitoring station,Bakhtegan,Kor,2016-12-15,7.47,12052.0,µS/cm,8490.0,mg/L,21.501,dimensionless
+AQ-07-14,43-039,River monitoring station,Bakhtegan,Kor,2019-02-04,6.95,848.0,µS/cm,560.0,mg/L,1.235,dimensionless
+AQ-07-15,43-039,River monitoring station,Bakhtegan,Kor,2020-12-12,7.98,3140.0,µS/cm,2041.0,mg/L,8.149,dimensionless
+AQ-08-01,24-003,River monitoring station,Karian,Ghareh‌aghaj,1966-11-27,8.0,620.0,µS/cm,414.0,mg/L,0.484,dimensionless
+AQ-08-02,24-003,River monitoring station,Karian,Ghareh‌aghaj,1969-03-11,8.1,850.0,µS/cm,600.0,mg/L,0.293,dimensionless
+AQ-08-03,24-003,River monitoring station,Karian,Ghareh‌aghaj,1971-09-14,7.7,1050.0,µS/cm,670.0,mg/L,1.084,dimensionless
+AQ-08-04,24-003,River monitoring station,Karian,Ghareh‌aghaj,1974-01-18,6.0,995.0,µS/cm,635.0,mg/L,0.542,dimensionless
+AQ-08-05,24-003,River monitoring station,Karian,Ghareh‌aghaj,1976-12-15,7.6,1010.0,µS/cm,592.0,mg/L,0.713,dimensionless
+AQ-08-06,24-003,River monitoring station,Karian,Ghareh‌aghaj,1979-06-21,8.1,875.0,µS/cm,590.0,mg/L,1.008,dimensionless
+AQ-08-07,24-003,River monitoring station,Karian,Ghareh‌aghaj,1982-04-16,7.7,925.0,µS/cm,620.0,mg/L,0.962,dimensionless
+AQ-08-08,24-003,River monitoring station,Karian,Ghareh‌aghaj,1987-05-12,7.3,1041.0,µS/cm,699.0,mg/L,1.039,dimensionless
+AQ-08-09,24-003,River monitoring station,Karian,Ghareh‌aghaj,1992-05-12,7.9,1064.0,µS/cm,783.0,mg/L,1.028,dimensionless
+AQ-08-10,24-003,River monitoring station,Karian,Ghareh‌aghaj,2000-03-15,8.4,870.0,µS/cm,614.0,mg/L,1.033,dimensionless
+AQ-08-11,24-003,River monitoring station,Karian,Ghareh‌aghaj,2006-12-21,7.9,1081.0,µS/cm,951.0,mg/L,0.6,dimensionless
+AQ-08-12,24-003,River monitoring station,Karian,Ghareh‌aghaj,2009-09-02,7.71,656.0,µS/cm,409.0,mg/L,0.392,dimensionless
+AQ-08-13,24-003,River monitoring station,Karian,Ghareh‌aghaj,2014-02-08,7.66,1242.0,µS/cm,876.0,mg/L,0.322,dimensionless
+AQ-08-14,24-003,River monitoring station,Karian,Ghareh‌aghaj,2018-11-04,7.5,818.0,µS/cm,539.0,mg/L,0.15,dimensionless
+AQ-08-15,24-003,River monitoring station,Karian,Ghareh‌aghaj,2020-12-14,7.93,1236.0,µS/cm,805.0,mg/L,1.294,dimensionless
+AQ-09-01,21-185,River monitoring station,West Boundary River,Karkheh,1967-09-05,7.55,1140.0,µS/cm,750.0,mg/L,0.896,dimensionless
+AQ-09-02,21-185,River monitoring station,West Boundary River,Karkheh,1971-03-02,7.7,640.0,µS/cm,490.0,mg/L,1.267,dimensionless
+AQ-09-03,21-185,River monitoring station,West Boundary River,Karkheh,1973-06-24,7.85,1310.0,µS/cm,916.0,mg/L,3.974,dimensionless
+AQ-09-04,21-185,River monitoring station,West Boundary River,Karkheh,1976-01-11,8.2,540.0,µS/cm,330.0,mg/L,0.646,dimensionless
+AQ-09-05,21-185,River monitoring station,West Boundary River,Karkheh,1979-08-06,8.0,1225.0,µS/cm,890.0,mg/L,1.964,dimensionless
+AQ-09-06,21-185,River monitoring station,West Boundary River,Karkheh,1983-03-17,7.9,685.0,µS/cm,398.0,mg/L,1.348,dimensionless
+AQ-09-07,21-185,River monitoring station,West Boundary River,Karkheh,1987-02-19,8.2,1214.0,µS/cm,795.0,mg/L,2.684,dimensionless
+AQ-09-08,21-185,River monitoring station,West Boundary River,Karkheh,1994-08-12,8.3,1115.0,µS/cm,723.0,mg/L,2.6,dimensionless
+AQ-09-09,21-185,River monitoring station,West Boundary River,Karkheh,2000-07-24,8.0,2004.0,µS/cm,1297.0,mg/L,5.235,dimensionless
+AQ-09-10,21-185,River monitoring station,West Boundary River,Karkheh,2003-09-27,8.1,910.0,µS/cm,598.0,mg/L,1.658,dimensionless
+AQ-09-11,21-185,River monitoring station,West Boundary River,Karkheh,2007-04-12,7.7,1005.0,µS/cm,610.0,mg/L,1.95,dimensionless
+AQ-09-12,21-185,River monitoring station,West Boundary River,Karkheh,2011-01-22,7.5,985.0,µS/cm,630.0,mg/L,2.091,dimensionless
+AQ-09-13,21-185,River monitoring station,West Boundary River,Karkheh,2014-07-21,7.7,3090.0,µS/cm,1978.0,mg/L,8.282,dimensionless
+AQ-09-14,21-185,River monitoring station,West Boundary River,Karkheh,2017-11-28,7.1,1277.0,µS/cm,842.82,mg/L,1.486,dimensionless
+AQ-09-15,21-185,River monitoring station,West Boundary River,Karkheh,2020-12-11,7.5,970.0,µS/cm,650.0,mg/L,1.13,dimensionless
+AQ-10-01,21-199,River monitoring station,Great karoon,Karkheh,1967-10-06,7.7,1200.0,µS/cm,740.0,mg/L,2.912,dimensionless
+AQ-10-02,21-199,River monitoring station,Great karoon,Karkheh,1971-06-25,7.7,1870.0,µS/cm,1245.0,mg/L,4.516,dimensionless
+AQ-10-03,21-199,River monitoring station,Great karoon,Karkheh,1974-11-09,7.65,1445.0,µS/cm,864.0,mg/L,3.342,dimensionless
+AQ-10-04,21-199,River monitoring station,Great karoon,Karkheh,1978-07-23,7.8,1750.0,µS/cm,1028.0,mg/L,4.751,dimensionless
+AQ-10-05,21-199,River monitoring station,Great karoon,Karkheh,1982-11-09,8.1,910.0,µS/cm,660.0,mg/L,1.701,dimensionless
+AQ-10-06,21-199,River monitoring station,Great karoon,Karkheh,1986-12-17,8.3,760.0,µS/cm,540.0,mg/L,1.491,dimensionless
+AQ-10-07,21-199,River monitoring station,Great karoon,Karkheh,1992-07-06,7.6,2013.0,µS/cm,1252.0,mg/L,4.576,dimensionless
+AQ-10-08,21-199,River monitoring station,Great karoon,Karkheh,1996-07-18,8.3,1950.0,µS/cm,1252.0,mg/L,3.863,dimensionless
+AQ-10-09,21-199,River monitoring station,Great karoon,Karkheh,2000-07-10,8.1,3102.0,µS/cm,1990.0,mg/L,7.31,dimensionless
+AQ-10-10,21-199,River monitoring station,Great karoon,Karkheh,2003-03-25,8.1,1308.0,µS/cm,902.0,mg/L,3.207,dimensionless
+AQ-10-11,21-199,River monitoring station,Great karoon,Karkheh,2006-11-11,7.9,1320.0,µS/cm,845.0,mg/L,2.49,dimensionless
+AQ-10-12,21-199,River monitoring station,Great karoon,Karkheh,2010-08-09,8.1,1592.0,µS/cm,1100.0,mg/L,3.913,dimensionless
+AQ-10-13,21-199,River monitoring station,Great karoon,Karkheh,2014-05-11,7.9,2050.0,µS/cm,1312.0,mg/L,4.173,dimensionless
+AQ-10-14,21-199,River monitoring station,Great karoon,Karkheh,2017-12-05,7.7,2470.0,µS/cm,1580.8,mg/L,4.731,dimensionless
+AQ-10-15,21-199,River monitoring station,Great karoon,Karkheh,2020-12-12,7.8,2330.0,µS/cm,1538.0,mg/L,4.617,dimensionless
+AQ-11-01,22-017,River monitoring station,Jarrahi,Maron,1967-09-09,7.5,2580.0,µS/cm,1640.0,mg/L,8.004,dimensionless
+AQ-11-02,22-017,River monitoring station,Jarrahi,Maron,1971-07-03,7.7,2885.0,µS/cm,1750.0,mg/L,8.82,dimensionless
+AQ-11-03,22-017,River monitoring station,Jarrahi,Maron,1974-11-08,7.8,2935.0,µS/cm,2028.0,mg/L,4.714,dimensionless
+AQ-11-04,22-017,River monitoring station,Jarrahi,Maron,1979-01-18,8.1,1475.0,µS/cm,848.0,mg/L,3.041,dimensionless
+AQ-11-05,22-017,River monitoring station,Jarrahi,Maron,1982-11-18,7.9,630.0,µS/cm,380.0,mg/L,1.223,dimensionless
+AQ-11-06,22-017,River monitoring station,Jarrahi,Maron,1986-09-08,8.2,2495.0,µS/cm,1605.0,mg/L,8.459,dimensionless
+AQ-11-07,22-017,River monitoring station,Jarrahi,Maron,1992-01-29,7.7,1038.0,µS/cm,595.0,mg/L,2.442,dimensionless
+AQ-11-08,22-017,River monitoring station,Jarrahi,Maron,1995-08-29,8.0,2676.0,µS/cm,1645.0,mg/L,6.55,dimensionless
+AQ-11-09,22-017,River monitoring station,Jarrahi,Maron,1999-05-31,8.0,2241.0,µS/cm,1356.0,mg/L,5.014,dimensionless
+AQ-11-10,22-017,River monitoring station,Jarrahi,Maron,2003-02-27,7.9,1360.0,µS/cm,950.0,mg/L,1.807,dimensionless
+AQ-11-11,22-017,River monitoring station,Jarrahi,Maron,2007-01-07,7.5,1676.0,µS/cm,1341.0,mg/L,3.052,dimensionless
+AQ-11-12,22-017,River monitoring station,Jarrahi,Maron,2010-09-14,7.6,2240.0,µS/cm,1440.0,mg/L,3.552,dimensionless
+AQ-11-13,22-017,River monitoring station,Jarrahi,Maron,2014-07-29,7.8,1977.0,µS/cm,1265.0,mg/L,4.425,dimensionless
+AQ-11-14,22-017,River monitoring station,Jarrahi,Maron,2018-03-20,7.9,2570.0,µS/cm,1593.0,mg/L,4.666,dimensionless
+AQ-11-15,22-017,River monitoring station,Jarrahi,Maron,2020-12-16,7.6,1781.0,µS/cm,1175.0,mg/L,3.817,dimensionless
+AQ-12-01,41-007,River monitoring station,Salt Lake,Ghaheroud,1967-07-17,7.6,1150.0,µS/cm,830.0,mg/L,3.739,dimensionless
+AQ-12-02,41-007,River monitoring station,Salt Lake,Ghaheroud,1970-12-16,7.9,915.0,µS/cm,595.0,mg/L,2.252,dimensionless
+AQ-12-03,41-007,River monitoring station,Salt Lake,Ghaheroud,1973-03-15,8.3,995.0,µS/cm,645.0,mg/L,4.002,dimensionless
+AQ-12-04,41-007,River monitoring station,Salt Lake,Ghaheroud,1975-04-31,7.95,1050.0,µS/cm,685.0,mg/L,4.133,dimensionless
+AQ-12-05,41-007,River monitoring station,Salt Lake,Ghaheroud,1983-06-22,7.87,950.0,µS/cm,610.0,mg/L,3.62,dimensionless
+AQ-12-06,41-007,River monitoring station,Salt Lake,Ghaheroud,1985-02-08,8.48,920.0,µS/cm,575.0,mg/L,4.578,dimensionless
+AQ-12-07,41-007,River monitoring station,Salt Lake,Ghaheroud,1986-12-04,8.39,985.0,µS/cm,700.0,mg/L,3.924,dimensionless
+AQ-12-08,41-007,River monitoring station,Salt Lake,Ghaheroud,1990-01-19,7.94,1015.0,µS/cm,645.0,mg/L,2.933,dimensionless
+AQ-12-09,41-007,River monitoring station,Salt Lake,Ghaheroud,2000-08-25,8.04,1072.0,µS/cm,513.0,mg/L,3.382,dimensionless
+AQ-12-10,41-007,River monitoring station,Salt Lake,Ghaheroud,2003-04-16,8.4,980.0,µS/cm,690.0,mg/L,3.434,dimensionless
+AQ-12-11,41-007,River monitoring station,Salt Lake,Ghaheroud,2004-11-08,7.95,942.0,µS/cm,634.0,mg/L,3.458,dimensionless
+AQ-12-12,41-007,River monitoring station,Salt Lake,Ghaheroud,2009-05-01,7.3,1158.0,µS/cm,752.0,mg/L,4.347,dimensionless
+AQ-12-13,41-007,River monitoring station,Salt Lake,Ghaheroud,2011-12-22,8.0,1208.0,µS/cm,785.0,mg/L,3.464,dimensionless
+AQ-12-14,41-007,River monitoring station,Salt Lake,Ghaheroud,2013-08-12,7.5,1193.0,µS/cm,776.0,mg/L,2.911,dimensionless
+AQ-12-15,41-007,River monitoring station,Salt Lake,Ghaheroud,2020-12-07,7.7,1131.0,µS/cm,735.2,mg/L,3.98,dimensionless
+AQ-13-01,47-015,River monitoring station,Central Desert,Hableh roud,1967-02-15,7.7,1389.0,µS/cm,880.0,mg/L,3.809,dimensionless
+AQ-13-02,47-015,River monitoring station,Central Desert,Hableh roud,1970-12-08,7.8,1340.0,µS/cm,870.0,mg/L,3.162,dimensionless
+AQ-13-03,47-015,River monitoring station,Central Desert,Hableh roud,1973-01-16,7.8,950.0,µS/cm,620.0,mg/L,2.231,dimensionless
+AQ-13-04,47-015,River monitoring station,Central Desert,Hableh roud,1974-12-18,7.7,1725.0,µS/cm,1140.0,mg/L,5.531,dimensionless
+AQ-13-05,47-015,River monitoring station,Central Desert,Hableh roud,1983-08-21,7.03,1390.0,µS/cm,920.0,mg/L,3.415,dimensionless
+AQ-13-06,47-015,River monitoring station,Central Desert,Hableh roud,2000-05-17,7.5,2580.0,µS/cm,1780.0,mg/L,1.773,dimensionless
+AQ-13-07,47-015,River monitoring station,Central Desert,Hableh roud,2003-06-20,7.7,2160.0,µS/cm,1442.0,mg/L,6.289,dimensionless
+AQ-13-08,47-015,River monitoring station,Central Desert,Hableh roud,2005-06-28,7.6,2520.0,µS/cm,1450.0,mg/L,8.398,dimensionless
+AQ-13-09,47-015,River monitoring station,Central Desert,Hableh roud,2007-01-09,8.0,1372.0,µS/cm,914.0,mg/L,3.635,dimensionless
+AQ-13-10,47-015,River monitoring station,Central Desert,Hableh roud,2009-04-13,7.9,2260.0,µS/cm,1510.0,mg/L,7.4,dimensionless
+AQ-13-11,47-015,River monitoring station,Central Desert,Hableh roud,2013-02-31,7.49,1667.0,µS/cm,1104.0,mg/L,4.642,dimensionless
+AQ-13-12,47-015,River monitoring station,Central Desert,Hableh roud,2014-09-03,7.82,1596.0,µS/cm,1063.0,mg/L,4.813,dimensionless
+AQ-13-13,47-015,River monitoring station,Central Desert,Hableh roud,2017-08-29,7.85,1902.0,µS/cm,1268.0,mg/L,7.029,dimensionless
+AQ-13-14,47-015,River monitoring station,Central Desert,Hableh roud,2019-08-06,7.29,1622.0,µS/cm,1084.0,mg/L,4.196,dimensionless
+AQ-13-15,47-015,River monitoring station,Central Desert,Hableh roud,2020-12-20,7.58,1672.0,µS/cm,1113.0,mg/L,2.668,dimensionless
+AQ-14-01,17-025,River monitoring station,Sefid-roud,Gharangho,1967-03-12,8.9,1400.0,µS/cm,910.0,mg/L,5.797,dimensionless
+AQ-14-02,17-025,River monitoring station,Sefid-roud,Gharangho,1970-05-24,7.1,1820.0,µS/cm,1185.0,mg/L,8.135,dimensionless
+AQ-14-03,17-025,River monitoring station,Sefid-roud,Gharangho,1974-05-07,7.75,2330.0,µS/cm,1465.0,mg/L,7.609,dimensionless
+AQ-14-04,17-025,River monitoring station,Sefid-roud,Gharangho,1987-10-27,8.2,948.0,µS/cm,597.0,mg/L,2.527,dimensionless
+AQ-14-05,17-025,River monitoring station,Sefid-roud,Gharangho,1992-07-14,7.92,2578.0,µS/cm,1624.0,mg/L,7.648,dimensionless
+AQ-14-06,17-025,River monitoring station,Sefid-roud,Gharangho,1995-01-07,7.56,1281.0,µS/cm,807.0,mg/L,4.613,dimensionless
+AQ-14-07,17-025,River monitoring station,Sefid-roud,Gharangho,1997-06-25,7.45,2830.0,µS/cm,1783.0,mg/L,6.867,dimensionless
+AQ-14-08,17-025,River monitoring station,Sefid-roud,Gharangho,1999-10-19,8.04,1740.0,µS/cm,1096.0,mg/L,5.362,dimensionless
+AQ-14-09,17-025,River monitoring station,Sefid-roud,Gharangho,2002-12-24,8.17,1610.0,µS/cm,1014.0,mg/L,5.199,dimensionless
+AQ-14-10,17-025,River monitoring station,Sefid-roud,Gharangho,2005-09-21,7.85,2060.0,µS/cm,1220.0,mg/L,6.952,dimensionless
+AQ-14-11,17-025,River monitoring station,Sefid-roud,Gharangho,2010-01-31,8.1,1741.0,µS/cm,1131.65,mg/L,6.228,dimensionless
+AQ-14-12,17-025,River monitoring station,Sefid-roud,Gharangho,2013-06-12,8.2,2650.0,µS/cm,1722.5,mg/L,8.686,dimensionless
+AQ-14-13,17-025,River monitoring station,Sefid-roud,Gharangho,2017-03-03,8.0,2170.0,µS/cm,1410.5,mg/L,6.887,dimensionless
+AQ-14-14,17-025,River monitoring station,Sefid-roud,Gharangho,2019-03-05,7.7,1489.0,µS/cm,967.85,mg/L,5.639,dimensionless
+AQ-14-15,17-025,River monitoring station,Sefid-roud,Gharangho,2020-12-25,7.9,3080.0,µS/cm,2002.0,mg/L,8.687,dimensionless
+AQ-15-01,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1966-07-18,8.25,14915.0,µS/cm,10440.0,mg/L,26.033,dimensionless
+AQ-15-02,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1970-06-07,7.9,12820.0,µS/cm,8720.0,mg/L,23.344,dimensionless
+AQ-15-03,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1974-06-17,7.1,9955.0,µS/cm,6470.0,mg/L,21.336,dimensionless
+AQ-15-04,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1977-08-14,7.9,3485.0,µS/cm,2450.0,mg/L,12.213,dimensionless
+AQ-15-05,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1981-02-06,7.3,5350.0,µS/cm,3750.0,mg/L,12.978,dimensionless
+AQ-15-06,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1984-09-25,7.6,17640.0,µS/cm,13230.0,mg/L,30.003,dimensionless
+AQ-15-07,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1987-09-29,7.5,7265.0,µS/cm,5850.0,mg/L,19.101,dimensionless
+AQ-15-08,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1990-08-12,7.3,20910.0,µS/cm,14640.0,mg/L,36.632,dimensionless
+AQ-15-09,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1993-11-23,7.5,15944.0,µS/cm,11160.0,mg/L,29.369,dimensionless
+AQ-15-10,42-025,River monitoring station,Gavkhouni,Zayandeh roud,1997-07-14,7.4,24116.0,µS/cm,16881.0,mg/L,38.508,dimensionless
+AQ-15-11,42-025,River monitoring station,Gavkhouni,Zayandeh roud,2000-08-29,7.5,22600.0,µS/cm,15820.0,mg/L,30.582,dimensionless
+AQ-15-12,42-025,River monitoring station,Gavkhouni,Zayandeh roud,2004-08-23,8.0,19760.0,µS/cm,13832.0,mg/L,22.711,dimensionless
+AQ-15-13,42-025,River monitoring station,Gavkhouni,Zayandeh roud,2007-06-14,7.3,11660.0,µS/cm,8162.0,mg/L,21.91,dimensionless
+AQ-15-14,42-025,River monitoring station,Gavkhouni,Zayandeh roud,2012-02-20,7.8,35100.0,µS/cm,24570.0,mg/L,39.348,dimensionless
+AQ-15-15,42-025,River monitoring station,Gavkhouni,Zayandeh roud,2020-12-05,8.5,13960.0,µS/cm,9772.0,mg/L,25.59,dimensionless
+AQ-16-01,19-039,River monitoring station,Aras,Zilbarchai,1975-07-28,7.6,9613.0,µS/cm,6035.0,mg/L,23.17,dimensionless
+AQ-16-02,19-039,River monitoring station,Aras,Zilbarchai,1980-04-12,8.1,7900.0,µS/cm,4325.0,mg/L,19.312,dimensionless
+AQ-16-03,19-039,River monitoring station,Aras,Zilbarchai,1981-11-24,7.9,7300.0,µS/cm,4745.0,mg/L,17.887,dimensionless
+AQ-16-04,19-039,River monitoring station,Aras,Zilbarchai,1983-03-01,8.4,8810.0,µS/cm,5730.0,mg/L,25.456,dimensionless
+AQ-16-05,19-039,River monitoring station,Aras,Zilbarchai,1984-08-24,7.7,8015.0,µS/cm,5210.0,mg/L,21.029,dimensionless
+AQ-16-06,19-039,River monitoring station,Aras,Zilbarchai,1987-04-10,8.3,12800.0,µS/cm,8320.0,mg/L,33.836,dimensionless
+AQ-16-07,19-039,River monitoring station,Aras,Zilbarchai,1990-12-13,7.3,13995.0,µS/cm,9032.0,mg/L,40.795,dimensionless
+AQ-16-08,19-039,River monitoring station,Aras,Zilbarchai,1993-04-15,7.3,11170.0,µS/cm,7260.0,mg/L,39.582,dimensionless
+AQ-16-09,19-039,River monitoring station,Aras,Zilbarchai,1996-12-19,6.5,19300.0,µS/cm,12545.0,mg/L,31.255,dimensionless
+AQ-16-10,19-039,River monitoring station,Aras,Zilbarchai,2000-08-10,7.7,24000.0,µS/cm,15600.0,mg/L,51.678,dimensionless
+AQ-16-11,19-039,River monitoring station,Aras,Zilbarchai,2008-01-24,8.1,11500.0,µS/cm,7475.0,mg/L,8.331,dimensionless
+AQ-16-12,19-039,River monitoring station,Aras,Zilbarchai,2012-10-06,8.2,13070.0,µS/cm,8495.5,mg/L,35.239,dimensionless
+AQ-16-13,19-039,River monitoring station,Aras,Zilbarchai,2018-01-14,7.7,16120.0,µS/cm,10478.0,mg/L,41.222,dimensionless
+AQ-16-14,19-039,River monitoring station,Aras,Zilbarchai,2019-02-22,7.7,4100.0,µS/cm,2665.0,mg/L,18.433,dimensionless
+AQ-16-15,19-039,River monitoring station,Aras,Zilbarchai,2020-12-03,7.8,880.0,µS/cm,572.0,mg/L,2.556,dimensionless
+AQ-17-01,27-003,River monitoring station,Sedij,Jamash,1982-07-12,7.3,2840.0,µS/cm,1647.0,mg/L,9.057,dimensionless
+AQ-17-02,27-003,River monitoring station,Sedij,Jamash,1985-05-16,7.4,13000.0,µS/cm,9000.0,mg/L,25.984,dimensionless
+AQ-17-03,27-003,River monitoring station,Sedij,Jamash,1985-12-09,7.8,5180.0,µS/cm,2900.0,mg/L,13.064,dimensionless
+AQ-17-04,27-003,River monitoring station,Sedij,Jamash,1986-06-10,7.76,3030.0,µS/cm,1670.0,mg/L,8.104,dimensionless
+AQ-17-05,27-003,River monitoring station,Sedij,Jamash,1986-11-23,7.43,5180.0,µS/cm,2970.0,mg/L,11.259,dimensionless
+AQ-17-06,27-003,River monitoring station,Sedij,Jamash,1988-02-28,8.3,7325.0,µS/cm,5130.0,mg/L,16.193,dimensionless
+AQ-17-07,27-003,River monitoring station,Sedij,Jamash,1990-02-30,7.6,12432.0,µS/cm,8700.0,mg/L,25.183,dimensionless
+AQ-17-08,27-003,River monitoring station,Sedij,Jamash,1998-07-10,8.25,5668.0,µS/cm,3528.0,mg/L,17.414,dimensionless
+AQ-17-09,27-003,River monitoring station,Sedij,Jamash,2003-08-30,7.87,14529.0,µS/cm,8952.0,mg/L,25.376,dimensionless
+AQ-17-10,27-003,River monitoring station,Sedij,Jamash,2006-11-03,8.63,3223.0,µS/cm,2063.0,mg/L,12.14,dimensionless
+AQ-17-11,27-003,River monitoring station,Sedij,Jamash,2009-09-19,7.88,2242.0,µS/cm,1430.0,mg/L,6.659,dimensionless
+AQ-17-12,27-003,River monitoring station,Sedij,Jamash,2012-09-01,7.74,2943.0,µS/cm,1884.0,mg/L,9.399,dimensionless
+AQ-17-13,27-003,River monitoring station,Sedij,Jamash,2014-04-18,8.01,2648.0,µS/cm,1695.0,mg/L,9.279,dimensionless
+AQ-17-14,27-003,River monitoring station,Sedij,Jamash,2019-09-17,7.86,4124.0,µS/cm,2681.0,mg/L,13.772,dimensionless
+AQ-17-15,27-003,River monitoring station,Sedij,Jamash,2020-12-20,7.77,5046.0,µS/cm,3229.0,mg/L,16.133,dimensionless
+AQ-18-01,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1972-11-11,7.6,2610.0,µS/cm,1723.0,mg/L,5.976,dimensionless
+AQ-18-02,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1976-10-21,7.5,2390.0,µS/cm,1472.0,mg/L,4.151,dimensionless
+AQ-18-03,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1978-05-03,8.5,2620.0,µS/cm,1795.0,mg/L,4.879,dimensionless
+AQ-18-04,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1981-02-09,7.6,2990.0,µS/cm,2035.0,mg/L,5.604,dimensionless
+AQ-18-05,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1983-11-24,8.1,3200.0,µS/cm,2173.0,mg/L,6.345,dimensionless
+AQ-18-06,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1985-05-09,8.1,6734.0,µS/cm,4760.0,mg/L,10.161,dimensionless
+AQ-18-07,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1986-10-18,8.4,6966.0,µS/cm,4797.0,mg/L,10.498,dimensionless
+AQ-18-08,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1988-05-20,8.2,5437.0,µS/cm,3765.0,mg/L,10.082,dimensionless
+AQ-18-09,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1989-12-18,8.1,5280.0,µS/cm,3477.0,mg/L,8.402,dimensionless
+AQ-18-10,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1991-06-29,8.6,8100.0,µS/cm,5271.0,mg/L,11.881,dimensionless
+AQ-18-11,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1993-03-23,7.6,3784.0,µS/cm,2242.0,mg/L,7.106,dimensionless
+AQ-18-12,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1995-10-29,7.5,1743.0,µS/cm,1120.0,mg/L,2.388,dimensionless
+AQ-18-13,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1997-04-22,8.1,4403.0,µS/cm,2850.0,mg/L,7.527,dimensionless
+AQ-18-14,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,1998-12-11,7.6,2910.0,µS/cm,2190.0,mg/L,4.902,dimensionless
+AQ-18-15,23-015,River monitoring station,Helleh,Dariacheh‌ prishan‌,2000-06-08,8.4,4904.0,µS/cm,3593.0,mg/L,9.153,dimensionless
+AQ-19-01,53-011,River monitoring station,Hirmand,Driachh hamon,1984-07-05,8.85,10450.0,µS/cm,7315.0,mg/L,28.048,dimensionless
+AQ-19-02,53-011,River monitoring station,Hirmand,Driachh hamon,1984-10-20,8.85,13985.0,µS/cm,9790.0,mg/L,32.963,dimensionless
+AQ-19-03,53-011,River monitoring station,Hirmand,Driachh hamon,1984-12-10,8.95,15910.0,µS/cm,11930.0,mg/L,34.418,dimensionless
+AQ-19-04,53-011,River monitoring station,Hirmand,Driachh hamon,1985-01-27,9.05,20870.0,µS/cm,16695.0,mg/L,39.209,dimensionless
+AQ-19-05,53-011,River monitoring station,Hirmand,Driachh hamon,1986-01-31,8.55,836.0,µS/cm,460.0,mg/L,4.876,dimensionless
+AQ-19-06,53-011,River monitoring station,Hirmand,Driachh hamon,1986-02-23,8.15,740.0,µS/cm,407.0,mg/L,4.195,dimensionless
+AQ-19-07,53-011,River monitoring station,Hirmand,Driachh hamon,1986-04-08,8.5,5215.0,µS/cm,3445.0,mg/L,18.037,dimensionless
+AQ-19-08,53-011,River monitoring station,Hirmand,Driachh hamon,1989-08-04,8.45,13285.0,µS/cm,9965.0,mg/L,38.485,dimensionless
+AQ-19-09,53-011,River monitoring station,Hirmand,Driachh hamon,1989-12-17,8.58,635.0,µS/cm,350.0,mg/L,3.337,dimensionless
+AQ-19-10,53-011,River monitoring station,Hirmand,Driachh hamon,1990-03-13,9.1,650.0,µS/cm,355.0,mg/L,6.197,dimensionless
+AQ-19-11,53-011,River monitoring station,Hirmand,Driachh hamon,1990-06-08,7.88,2030.0,µS/cm,1300.0,mg/L,8.305,dimensionless
+AQ-19-12,53-011,River monitoring station,Hirmand,Driachh hamon,1990-09-03,8.56,2735.0,µS/cm,1750.0,mg/L,10.508,dimensionless
+AQ-19-13,53-011,River monitoring station,Hirmand,Driachh hamon,1991-04-06,8.04,635.0,µS/cm,350.0,mg/L,2.871,dimensionless
+AQ-19-14,53-011,River monitoring station,Hirmand,Driachh hamon,1991-06-14,8.0,1195.0,µS/cm,765.0,mg/L,6.166,dimensionless
+AQ-19-15,53-011,River monitoring station,Hirmand,Driachh hamon,1996-09-08,8.4,3400.0,µS/cm,2210.0,mg/L,11.399,dimensionless
+AQ-20-01,23-025,River monitoring station,Atrak,Dalaki,1967-01-27,8.0,3248.0,µS/cm,2046.0,mg/L,7.424,dimensionless
+AQ-20-02,23-025,River monitoring station,Atrak,Dalaki,1969-10-07,7.8,4840.0,µS/cm,2928.0,mg/L,15.356,dimensionless
+AQ-20-03,23-025,River monitoring station,Atrak,Dalaki,1972-08-08,7.6,3480.0,µS/cm,2860.0,mg/L,14.08,dimensionless
+AQ-20-04,23-025,River monitoring station,Atrak,Dalaki,1976-04-30,8.2,3840.0,µS/cm,2486.0,mg/L,13.043,dimensionless
+AQ-20-05,23-025,River monitoring station,Atrak,Dalaki,1979-05-22,8.3,5896.0,µS/cm,3625.0,mg/L,16.63,dimensionless
+AQ-20-06,23-025,River monitoring station,Atrak,Dalaki,1982-08-26,8.0,3860.0,µS/cm,2542.0,mg/L,12.17,dimensionless
+AQ-20-07,23-025,River monitoring station,Atrak,Dalaki,1985-06-27,8.1,5863.0,µS/cm,3603.0,mg/L,15.673,dimensionless
+AQ-20-08,23-025,River monitoring station,Atrak,Dalaki,1988-04-19,7.9,5270.0,µS/cm,3162.0,mg/L,13.789,dimensionless
+AQ-20-09,23-025,River monitoring station,Atrak,Dalaki,1991-05-14,7.9,5396.0,µS/cm,3088.0,mg/L,14.513,dimensionless
+AQ-20-10,23-025,River monitoring station,Atrak,Dalaki,1995-12-10,7.7,2988.0,µS/cm,1919.0,mg/L,4.802,dimensionless
+AQ-20-11,23-025,River monitoring station,Atrak,Dalaki,1999-08-26,8.0,4738.0,µS/cm,3783.0,mg/L,11.717,dimensionless
+AQ-20-12,23-025,River monitoring station,Atrak,Dalaki,2005-04-20,8.1,5411.0,µS/cm,3311.0,mg/L,8.842,dimensionless
+AQ-20-13,23-025,River monitoring station,Atrak,Dalaki,2011-12-07,8.03,2814.0,µS/cm,1827.0,mg/L,5.408,dimensionless
+AQ-20-14,23-025,River monitoring station,Atrak,Dalaki,2017-01-07,7.24,5237.0,µS/cm,3534.0,mg/L,8.734,dimensionless
+AQ-20-15,23-025,River monitoring station,Atrak,Dalaki,2020-12-01,7.25,7540.0,µS/cm,4910.0,mg/L,10.344,dimensionless

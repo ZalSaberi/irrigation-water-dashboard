@@ -1,0 +1,31 @@
+﻿case_id,case_type,pH,EC_value,EC_unit,TDS_value,TDS_unit,SAR,SAR_unit,expected_validation,expected_key_result,expected_color,why_needed
+V001,valid-green,7.2,600,µS/cm,400,mg/L,2.0,dimensionless,Valid,EC none; TDS none; SAR toxicity none; pH normal,green,Basic suitable case
+V002,valid-yellow,7.5,1500,µS/cm,900,mg/L,5.0,dimensionless,Valid,At least one slight-moderate restriction,yellow,Basic caution case
+V003,valid-red,7.8,4500,µS/cm,2600,mg/L,12.0,dimensionless,Valid,Severe salinity/SAR restriction,red,Basic severe case
+V004,EC-lower-bound,7.0,699.9,µS/cm,400,mg/L,2.0,dimensionless,Valid,EC none,green,Test just below 0.7 dS/m
+V005,EC-boundary,7.0,700,µS/cm,400,mg/L,2.0,dimensionless,Valid,EC slight-moderate,yellow,Test exact 0.7 dS/m
+V006,EC-upper-bound,7.0,3000,µS/cm,1800,mg/L,2.0,dimensionless,Valid,EC slight-moderate,yellow,Test exact 3.0 dS/m
+V007,EC-above-upper,7.0,3000.1,µS/cm,1800,mg/L,2.0,dimensionless,Valid,EC severe,red,Test just above 3.0 dS/m
+V008,TDS-boundary-low,7.0,600,µS/cm,450,mg/L,2.0,dimensionless,Valid,TDS slight-moderate,yellow,Exact TDS 450
+V009,TDS-boundary-high,7.0,600,µS/cm,2000,mg/L,2.0,dimensionless,Valid,TDS slight-moderate,yellow,Exact TDS 2000
+V010,TDS-above-high,7.0,600,µS/cm,2000.1,mg/L,2.0,dimensionless,Valid,TDS severe,red,Just above TDS 2000
+V011,SAR-boundary-low,7.0,1500,µS/cm,900,mg/L,3.0,dimensionless,Valid,SAR toxicity slight-moderate,yellow,Exact SAR 3
+V012,SAR-boundary-high,7.0,1500,µS/cm,900,mg/L,9.0,dimensionless,Valid,SAR toxicity slight-moderate,yellow,Exact SAR 9
+V013,SAR-above-high,7.0,1500,µS/cm,900,mg/L,9.01,dimensionless,Valid,SAR toxicity severe,red,Just above SAR 9
+V014,pH-low-normal,6.5,600,µS/cm,400,mg/L,2.0,dimensionless,Valid,pH normal,green,Exact pH lower normal boundary
+V015,pH-below-normal,6.49,600,µS/cm,400,mg/L,2.0,dimensionless,Valid,pH review,yellow,Just below normal pH
+V016,pH-high-normal,8.4,600,µS/cm,400,mg/L,2.0,dimensionless,Valid,pH normal,green,Exact pH upper normal boundary
+V017,pH-above-normal,8.41,600,µS/cm,400,mg/L,2.0,dimensionless,Valid,pH review,yellow,Just above normal pH
+V018,unit-conversion,7.2,0.65,dS/m,400,mg/L,2.0,dimensionless,Valid after conversion,EC none after conversion to 650 µS/cm,green,Test accepted alternate EC unit
+V019,missing-pH,,600,µS/cm,400,mg/L,2.0,dimensionless,Invalid / incomplete,Missing pH,gray,Missing required input
+V020,missing-SAR,7.2,600,µS/cm,400,mg/L,,dimensionless,Invalid / incomplete,Missing SAR,gray,Missing required input
+V021,negative-EC,7.2,-10,µS/cm,400,mg/L,2.0,dimensionless,Invalid,EC cannot be negative,gray,Range validation
+V022,negative-TDS,7.2,600,µS/cm,-1,mg/L,2.0,dimensionless,Invalid,TDS cannot be negative,gray,Range validation
+V023,negative-SAR,7.2,600,µS/cm,400,mg/L,-1,dimensionless,Invalid,SAR cannot be negative,gray,Range validation
+V024,invalid-pH,15,600,µS/cm,400,mg/L,2.0,dimensionless,Invalid,pH must be 0-14,gray,Range validation
+V025,unknown-unit,7.2,600,mystery,400,mg/L,2.0,dimensionless,Invalid,Unknown EC unit,gray,Unit validation
+V026,infiltration-SAR0-3-boundary,7.2,200,µS/cm,150,mg/L,2.0,dimensionless,Valid,EC-SAR infiltration slight-moderate at 0.2 dS/m,green,Infiltration matrix boundary
+V027,infiltration-SAR3-6-severe,7.2,299,µS/cm,180,mg/L,4.0,dimensionless,Valid,EC-SAR infiltration severe (<0.3 dS/m),yellow,Infiltration matrix
+V028,infiltration-SAR6-12-none,7.2,2000,µS/cm,1300,mg/L,8.0,dimensionless,Valid,EC-SAR infiltration none (>1.9 dS/m) but EC/TDS caution,yellow,Combined-rule behavior
+V029,SAR-outside-table,7.2,6000,µS/cm,4000,mg/L,41.0,dimensionless,Valid; expert review,SAR > 40 outside FAO infiltration table; other severe restrictions,red,Out-of-table handling
+V030,text-not-number,abc,600,µS/cm,400,mg/L,2.0,dimensionless,Invalid,pH is not numeric,gray,Type validation

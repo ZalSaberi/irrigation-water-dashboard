@@ -1,0 +1,301 @@
+﻿sample_id,EC_dS_m,FAO_salinity_EC_restriction,FAO_salinity_TDS_restriction,FAO_SAR_surface_toxicity,FAO_EC_SAR_infiltration_restriction,FAO_pH_status,dashboard_overall_status_en,dashboard_overall_status_fa,dashboard_color,Na_percent_source,Wilcox_Na_percent_class,USSL_EC_class,USSL_SAR_class,USSL_SAR_EC_code,TDS_EC_factor,TDS_EC_QC
+AQ-01-01,0.37,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.09,Excellent,C2,S1,C2-S1,0.6297297297297297,Pass
+AQ-01-02,0.351,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,27.08,Good,C2,S1,C2-S1,0.6581196581196581,Pass
+AQ-01-03,0.435,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,32.56,Good,C2,S1,C2-S1,0.6436781609195402,Pass
+AQ-01-04,0.435,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,12.74,Excellent,C2,S1,C2-S1,0.632183908045977,Pass
+AQ-01-05,0.428,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,18.37,Excellent,C2,S1,C2-S1,0.6588785046728972,Pass
+AQ-01-06,0.396,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,25.73,Good,C2,S1,C2-S1,0.6060606060606061,Pass
+AQ-01-07,0.357,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.61,Excellent,C2,S1,C2-S1,0.6386554621848739,Pass
+AQ-01-08,0.382,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,16.1,Excellent,C2,S1,C2-S1,0.7225130890052356,Pass
+AQ-01-09,0.499,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,15.77,Excellent,C2,S1,C2-S1,0.6492985971943888,Pass
+AQ-01-10,0.392,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,22.34,Good,C2,S1,C2-S1,0.875,Review
+AQ-01-11,0.58,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,10.71,Excellent,C2,S1,C2-S1,0.7224137931034482,Pass
+AQ-01-12,0.428,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,1.03,Excellent,C2,S1,C2-S1,0.7383177570093458,Pass
+AQ-01-13,0.566,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,6.14,Excellent,C2,S1,C2-S1,0.6254416961130742,Pass
+AQ-01-14,0.54,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.12,Excellent,C2,S1,C2-S1,0.662962962962963,Pass
+AQ-01-15,0.488,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,28.57,Good,C2,S1,C2-S1,0.6475409836065574,Pass
+AQ-02-01,0.14,None,None,None,Severe,Review,Caution,نیازمند احتیاط,yellow,30.44,Good,C1,S1,C1-S1,0.4785714285714286,Review
+AQ-02-02,0.368,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,19.19,Excellent,C2,S1,C2-S1,0.657608695652174,Pass
+AQ-02-03,0.255,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,34.48,Good,C2,S1,C2-S1,0.6470588235294118,Pass
+AQ-02-04,0.535,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,35.29,Good,C2,S1,C2-S1,0.6261682242990654,Pass
+AQ-02-05,0.66,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,31.34,Good,C2,S1,C2-S1,0.6666666666666666,Pass
+AQ-02-06,0.34,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,15.66,Excellent,C2,S1,C2-S1,0.6470588235294118,Pass
+AQ-02-07,0.4,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,16.05,Excellent,C2,S1,C2-S1,0.6,Pass
+AQ-02-08,0.735,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,21.92,Good,C2,S1,C2-S1,0.6503401360544218,Pass
+AQ-02-09,0.492,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,14.29,Excellent,C2,S1,C2-S1,0.6117886178861789,Pass
+AQ-02-10,0.19,None,None,None,Severe,Normal,Suitable,مناسب,green,25.53,Good,C1,S1,C1-S1,0.7052631578947368,Pass
+AQ-02-11,1.003,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,13.83,Excellent,C3,S1,C3-S1,0.65,Pass
+AQ-02-12,0.533,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,21.05,Good,C2,S1,C2-S1,0.65,Pass
+AQ-02-13,0.533,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,20.3,Good,C2,S1,C2-S1,0.65,Pass
+AQ-02-14,0.437,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,20.18,Good,C2,S1,C2-S1,0.65,Pass
+AQ-02-15,0.356,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,23.38,Good,C2,S1,C2-S1,0.65,Pass
+AQ-03-01,0.369,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,32.94,Good,C2,S1,C2-S1,0.6639566395663956,Pass
+AQ-03-02,0.46,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,7.69,Excellent,C2,S1,C2-S1,0.6521739130434783,Pass
+AQ-03-03,0.457,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,13.12,Excellent,C2,S1,C2-S1,0.6542669584245077,Pass
+AQ-03-04,0.485,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,12.34,Excellent,C2,S1,C2-S1,0.6185567010309279,Pass
+AQ-03-05,0.38,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,20.77,Good,C2,S1,C2-S1,0.6157894736842106,Pass
+AQ-03-06,0.406,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,18.7,Excellent,C2,S1,C2-S1,0.6847290640394089,Pass
+AQ-03-07,0.351,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,22.37,Good,C2,S1,C2-S1,0.6467236467236467,Pass
+AQ-03-08,0.386,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,18.41,Excellent,C2,S1,C2-S1,0.6450777202072538,Pass
+AQ-03-09,0.443,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,23.66,Good,C2,S1,C2-S1,0.6343115124153499,Pass
+AQ-03-10,0.612,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,13.96,Excellent,C2,S1,C2-S1,0.6879084967320261,Pass
+AQ-03-11,0.554,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,21.1,Good,C2,S1,C2-S1,0.631768953068592,Pass
+AQ-03-12,0.554,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,15.01,Excellent,C2,S1,C2-S1,0.631768953068592,Pass
+AQ-03-13,0.34,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,25.5,Good,C2,S1,C2-S1,0.6352941176470588,Pass
+AQ-03-14,0.51,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.27,Excellent,C2,S1,C2-S1,0.6352941176470588,Pass
+AQ-03-15,0.55,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,16.07,Excellent,C2,S1,C2-S1,0.6345454545454545,Pass
+AQ-04-01,0.45,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,16.67,Excellent,C2,S1,C2-S1,0.6444444444444445,Pass
+AQ-04-02,0.436,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,14.41,Excellent,C2,S1,C2-S1,0.6628440366972477,Pass
+AQ-04-03,0.53,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,15.21,Excellent,C2,S1,C2-S1,0.6415094339622641,Pass
+AQ-04-04,0.468,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,11.42,Excellent,C2,S1,C2-S1,0.6388888888888888,Pass
+AQ-04-05,0.63,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,12.5,Excellent,C2,S1,C2-S1,0.6111111111111112,Pass
+AQ-04-06,0.472,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,9.42,Excellent,C2,S1,C2-S1,0.6398305084745762,Pass
+AQ-04-07,0.565,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,12.9,Excellent,C2,S1,C2-S1,0.6407079646017699,Pass
+AQ-04-08,0.603,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,14.38,Excellent,C2,S1,C2-S1,0.6401326699834162,Pass
+AQ-04-09,0.702,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,30.68,Good,C2,S1,C2-S1,0.6495726495726496,Pass
+AQ-04-10,0.519,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,12.25,Excellent,C2,S1,C2-S1,0.6396917148362236,Pass
+AQ-04-11,0.538,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,10.96,Excellent,C2,S1,C2-S1,0.6394052044609665,Pass
+AQ-04-12,0.411,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,42.64,Permissible,C2,S1,C2-S1,0.6399026763990268,Pass
+AQ-04-13,0.586,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,13.33,Excellent,C2,S1,C2-S1,0.6399317406143344,Pass
+AQ-04-14,0.692,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.91,Excellent,C2,S1,C2-S1,0.6488439306358381,Pass
+AQ-04-15,0.527,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,9.25,Excellent,C2,S1,C2-S1,0.6204933586337761,Pass
+AQ-05-01,0.52,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,24.56,Good,C2,S1,C2-S1,0.6730769230769231,Pass
+AQ-05-02,0.527,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,20.78,Good,C2,S1,C2-S1,0.6489563567362429,Pass
+AQ-05-03,0.535,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,14.09,Excellent,C2,S1,C2-S1,0.6542056074766355,Pass
+AQ-05-04,0.732,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,24.0,Good,C2,S1,C2-S1,0.6502732240437158,Pass
+AQ-05-05,0.611,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,32.26,Good,C2,S1,C2-S1,0.646481178396072,Pass
+AQ-05-06,0.68,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,18.52,Excellent,C2,S1,C2-S1,0.65,Pass
+AQ-05-07,0.77,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.53,Good,C3,S1,C3-S1,0.6545454545454545,Pass
+AQ-05-08,0.967,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,40.87,Permissible,C3,S1,C3-S1,0.6525336091003102,Pass
+AQ-05-09,0.509,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,11.11,Excellent,C2,S1,C2-S1,0.6522593320235757,Pass
+AQ-05-10,0.628,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,8.95,Excellent,C2,S1,C2-S1,0.643312101910828,Pass
+AQ-05-11,1.058,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,32.76,Good,C3,S1,C3-S1,0.6502835538752363,Pass
+AQ-05-12,0.405,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,18.58,Excellent,C2,S1,C2-S1,0.6444444444444445,Pass
+AQ-05-13,1.328,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,19.58,Excellent,C3,S1,C3-S1,0.6596385542168675,Pass
+AQ-05-14,1.13,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,48.26,Permissible,C3,S1,C3-S1,0.6504424778761062,Pass
+AQ-05-15,1.046,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,36.95,Good,C3,S1,C3-S1,0.6615678776290631,Pass
+AQ-06-01,0.364,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,49.62,Permissible,C2,S1,C2-S1,0.6043956043956044,Pass
+AQ-06-02,0.595,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,24.59,Good,C2,S1,C2-S1,0.6554621848739496,Pass
+AQ-06-03,0.493,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.17,Excellent,C2,S1,C2-S1,0.5882352941176471,Pass
+AQ-06-04,0.365,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,56.76,Permissible,C2,S1,C2-S1,0.6575342465753424,Pass
+AQ-06-05,0.5,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,33.9,Good,C2,S1,C2-S1,0.62,Pass
+AQ-06-06,0.403,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,35.71,Good,C2,S1,C2-S1,0.5459057071960298,Review
+AQ-06-07,0.531,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,27.27,Good,C2,S1,C2-S1,0.5649717514124294,Pass
+AQ-06-08,0.454,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,26.67,Good,C2,S1,C2-S1,0.539647577092511,Review
+AQ-06-09,0.524,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,30.77,Good,C2,S1,C2-S1,0.6679389312977099,Pass
+AQ-06-10,0.53,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,21.82,Good,C2,S1,C2-S1,0.6698113207547169,Pass
+AQ-06-11,0.497,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,31.48,Good,C2,S1,C2-S1,0.5995975855130785,Pass
+AQ-06-12,0.59,None,None,None,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,26.56,Good,C2,S1,C2-S1,0.6508474576271186,Pass
+AQ-06-13,0.612,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,33.33,Good,C2,S1,C2-S1,0.6601307189542484,Pass
+AQ-06-14,0.53,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,25.0,Good,C2,S1,C2-S1,0.6490566037735849,Pass
+AQ-06-15,0.55,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,32.14,Good,C2,S1,C2-S1,0.649090909090909,Pass
+AQ-07-01,0.756,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,32.88,Good,C3,S1,C3-S1,0.671957671957672,Pass
+AQ-07-02,0.857,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,42.86,Permissible,C3,S1,C3-S1,0.5600933488914819,Pass
+AQ-07-03,0.94,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,41.3,Permissible,C3,S1,C3-S1,0.6329787234042553,Pass
+AQ-07-04,1.05,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,42.86,Permissible,C3,S1,C3-S1,0.6533333333333333,Pass
+AQ-07-05,0.785,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,34.78,Good,C3,S1,C3-S1,0.6178343949044586,Pass
+AQ-07-06,3.444,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,52.11,Permissible,C4,S1,C4-S1,0.6358885017421603,Pass
+AQ-07-07,1.54,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,46.74,Permissible,C3,S1,C3-S1,0.6584415584415585,Pass
+AQ-07-08,0.987,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,38.62,Good,C3,S1,C3-S1,0.5937183383991894,Pass
+AQ-07-09,1.863,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,69.07,Doubtful,C3,S1,C3-S1,0.5684380032206119,Pass
+AQ-07-10,1.06,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,28.57,Good,C3,S1,C3-S1,0.5735849056603773,Pass
+AQ-07-11,1.04,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,35.77,Good,C3,S1,C3-S1,0.6480769230769231,Pass
+AQ-07-12,1.79,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,12.61,Excellent,C3,S1,C3-S1,0.6424581005586593,Pass
+AQ-07-13,12.052,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,69.63,Doubtful,C4,S3,C4-S3,0.7044473946232991,Pass
+AQ-07-14,0.848,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,26.01,Good,C3,S1,C3-S1,0.660377358490566,Pass
+AQ-07-15,3.14,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,63.15,Doubtful,C4,S1,C4-S1,0.65,Pass
+AQ-08-01,0.62,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,13.51,Excellent,C2,S1,C2-S1,0.667741935483871,Pass
+AQ-08-02,0.85,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,6.67,Excellent,C3,S1,C3-S1,0.7058823529411765,Pass
+AQ-08-03,1.05,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.35,Good,C3,S1,C3-S1,0.638095238095238,Pass
+AQ-08-04,0.995,Slight-Moderate,Slight-Moderate,None,None,Review,Caution,نیازمند احتیاط,yellow,11.77,Excellent,C3,S1,C3-S1,0.6381909547738693,Pass
+AQ-08-05,1.01,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,15.17,Excellent,C3,S1,C3-S1,0.5861386138613861,Pass
+AQ-08-06,0.875,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.94,Good,C3,S1,C3-S1,0.6742857142857143,Pass
+AQ-08-07,0.925,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.34,Good,C3,S1,C3-S1,0.6702702702702703,Pass
+AQ-08-08,1.041,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.43,Good,C3,S1,C3-S1,0.6714697406340058,Pass
+AQ-08-09,1.064,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,20.35,Good,C3,S1,C3-S1,0.7359022556390977,Pass
+AQ-08-10,0.87,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,21.74,Good,C3,S1,C3-S1,0.7057471264367816,Pass
+AQ-08-11,1.081,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,11.1,Excellent,C3,S1,C3-S1,0.879740980573543,Review
+AQ-08-12,0.656,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,11.0,Excellent,C2,S1,C2-S1,0.6234756097560976,Pass
+AQ-08-13,1.242,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,6.34,Excellent,C3,S1,C3-S1,0.7053140096618358,Pass
+AQ-08-14,0.818,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,4.19,Excellent,C3,S1,C3-S1,0.6589242053789731,Pass
+AQ-08-15,1.236,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,23.39,Good,C3,S1,C3-S1,0.651294498381877,Pass
+AQ-09-01,1.14,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,17.43,Excellent,C3,S1,C3-S1,0.6578947368421053,Pass
+AQ-09-02,0.64,None,Slight-Moderate,None,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,35.71,Good,C2,S1,C2-S1,0.765625,Review
+AQ-09-03,1.31,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,54.47,Permissible,C3,S1,C3-S1,0.6992366412213741,Pass
+AQ-09-04,0.54,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,17.67,Excellent,C2,S1,C2-S1,0.6111111111111112,Pass
+AQ-09-05,1.225,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,33.07,Good,C3,S1,C3-S1,0.726530612244898,Pass
+AQ-09-06,0.685,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,31.68,Good,C2,S1,C2-S1,0.581021897810219,Pass
+AQ-09-07,1.214,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,40.68,Permissible,C3,S1,C3-S1,0.6548599670510709,Pass
+AQ-09-08,1.115,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,41.67,Permissible,C3,S1,C3-S1,0.6484304932735426,Pass
+AQ-09-09,2.004,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,55.65,Permissible,C3,S1,C3-S1,0.6472055888223552,Pass
+AQ-09-10,0.91,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,32.2,Good,C3,S1,C3-S1,0.6571428571428571,Pass
+AQ-09-11,1.005,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,34.24,Good,C3,S1,C3-S1,0.6069651741293532,Pass
+AQ-09-12,0.985,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,37.08,Good,C3,S1,C3-S1,0.6395939086294417,Pass
+AQ-09-13,3.09,Severe,Slight-Moderate,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,63.52,Doubtful,C4,S1,C4-S1,0.6401294498381876,Pass
+AQ-09-14,1.277,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,25.0,Good,C3,S1,C3-S1,0.66,Pass
+AQ-09-15,0.97,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,22.09,Good,C3,S1,C3-S1,0.6701030927835051,Pass
+AQ-10-01,1.2,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,44.68,Permissible,C3,S1,C3-S1,0.6166666666666667,Pass
+AQ-10-02,1.87,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,51.9,Permissible,C3,S1,C3-S1,0.6657754010695187,Pass
+AQ-10-03,1.445,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,46.06,Permissible,C3,S1,C3-S1,0.5979238754325259,Pass
+AQ-10-04,1.75,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,55.2,Permissible,C3,S1,C3-S1,0.5874285714285714,Pass
+AQ-10-05,0.91,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,31.26,Good,C3,S1,C3-S1,0.7252747252747253,Pass
+AQ-10-06,0.76,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,31.82,Good,C3,S1,C3-S1,0.7105263157894737,Pass
+AQ-10-07,2.013,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,51.35,Permissible,C3,S1,C3-S1,0.6219572776949827,Pass
+AQ-10-08,1.95,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.24,Permissible,C3,S1,C3-S1,0.642051282051282,Pass
+AQ-10-09,3.102,Severe,Slight-Moderate,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,58.84,Permissible,C4,S1,C4-S1,0.6415215989684074,Pass
+AQ-10-10,1.308,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.33,Permissible,C3,S1,C3-S1,0.6896024464831805,Pass
+AQ-10-11,1.32,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,38.65,Good,C3,S1,C3-S1,0.6401515151515151,Pass
+AQ-10-12,1.592,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,48.28,Permissible,C3,S1,C3-S1,0.6909547738693468,Pass
+AQ-10-13,2.05,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,47.15,Permissible,C3,S1,C3-S1,0.64,Pass
+AQ-10-14,2.47,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,47.98,Permissible,C4,S1,C4-S1,0.64,Pass
+AQ-10-15,2.33,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,47.93,Permissible,C4,S1,C4-S1,0.6600858369098712,Pass
+AQ-11-01,2.58,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,66.0,Doubtful,C4,S1,C4-S1,0.6356589147286822,Pass
+AQ-11-02,2.885,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,67.82,Doubtful,C4,S1,C4-S1,0.6065857885615251,Pass
+AQ-11-03,2.935,Slight-Moderate,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,45.3,Permissible,C4,S1,C4-S1,0.6909710391822828,Pass
+AQ-11-04,1.475,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,44.57,Permissible,C3,S1,C3-S1,0.5749152542372882,Pass
+AQ-11-05,0.63,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,26.53,Good,C2,S1,C2-S1,0.6031746031746031,Pass
+AQ-11-06,2.495,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,65.42,Doubtful,C4,S1,C4-S1,0.6432865731462926,Pass
+AQ-11-07,1.038,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,43.52,Permissible,C3,S1,C3-S1,0.5732177263969171,Pass
+AQ-11-08,2.676,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,58.18,Permissible,C4,S1,C4-S1,0.6147234678624813,Pass
+AQ-11-09,2.241,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,52.9,Permissible,C3,S1,C3-S1,0.6050870147255689,Pass
+AQ-11-10,1.36,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,28.43,Good,C3,S1,C3-S1,0.6985294117647058,Pass
+AQ-11-11,1.676,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,40.3,Permissible,C3,S1,C3-S1,0.8001193317422435,Review
+AQ-11-12,2.24,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,40.97,Permissible,C3,S1,C3-S1,0.6428571428571429,Pass
+AQ-11-13,1.977,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,50.03,Permissible,C3,S1,C3-S1,0.6398583712696004,Pass
+AQ-11-14,2.57,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.98,Permissible,C4,S1,C4-S1,0.6198443579766537,Pass
+AQ-11-15,1.781,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.15,Permissible,C3,S1,C3-S1,0.6597417181358787,Pass
+AQ-12-01,1.15,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,53.81,Permissible,C3,S1,C3-S1,0.7217391304347827,Pass
+AQ-12-02,0.915,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,40.66,Permissible,C3,S1,C3-S1,0.6502732240437158,Pass
+AQ-12-03,0.995,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,58.0,Permissible,C3,S1,C3-S1,0.6482412060301508,Pass
+AQ-12-04,1.05,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,57.94,Permissible,C3,S1,C3-S1,0.6523809523809524,Pass
+AQ-12-05,0.95,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,55.28,Permissible,C3,S1,C3-S1,0.6421052631578947,Pass
+AQ-12-06,0.92,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,65.13,Doubtful,C3,S1,C3-S1,0.625,Pass
+AQ-12-07,0.985,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,58.59,Permissible,C3,S1,C3-S1,0.7106598984771574,Pass
+AQ-12-08,1.015,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,49.89,Permissible,C3,S1,C3-S1,0.6354679802955665,Pass
+AQ-12-09,1.072,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,51.33,Permissible,C3,S1,C3-S1,0.478544776119403,Review
+AQ-12-10,0.98,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,52.56,Permissible,C3,S1,C3-S1,0.7040816326530612,Pass
+AQ-12-11,0.942,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,54.45,Permissible,C3,S1,C3-S1,0.673036093418259,Pass
+AQ-12-12,1.158,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,60.04,Doubtful,C3,S1,C3-S1,0.6493955094991365,Pass
+AQ-12-13,1.208,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,50.04,Permissible,C3,S1,C3-S1,0.6498344370860927,Pass
+AQ-12-14,1.193,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,43.51,Permissible,C3,S1,C3-S1,0.6504610226320201,Pass
+AQ-12-15,1.131,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,55.65,Permissible,C3,S1,C3-S1,0.6500442086648983,Pass
+AQ-13-01,1.389,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,50.53,Permissible,C3,S1,C3-S1,0.6335493160547156,Pass
+AQ-13-02,1.34,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.46,Permissible,C3,S1,C3-S1,0.6492537313432836,Pass
+AQ-13-03,0.95,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,39.58,Good,C3,S1,C3-S1,0.6526315789473685,Pass
+AQ-13-04,1.725,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,61.69,Doubtful,C3,S1,C3-S1,0.6608695652173913,Pass
+AQ-13-05,1.39,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,46.82,Permissible,C3,S1,C3-S1,0.6618705035971223,Pass
+AQ-13-06,2.58,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,21.32,Good,C4,S1,C4-S1,0.689922480620155,Pass
+AQ-13-07,2.16,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,61.28,Doubtful,C3,S1,C3-S1,0.6675925925925926,Pass
+AQ-13-08,2.52,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,67.6,Doubtful,C4,S1,C4-S1,0.5753968253968254,Pass
+AQ-13-09,1.372,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,49.28,Permissible,C3,S1,C3-S1,0.6661807580174927,Pass
+AQ-13-10,2.26,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,64.91,Doubtful,C4,S1,C4-S1,0.668141592920354,Pass
+AQ-13-11,1.667,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,54.6,Permissible,C3,S1,C3-S1,0.6622675464907019,Pass
+AQ-13-12,1.596,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,56.0,Permissible,C3,S1,C3-S1,0.6660401002506265,Pass
+AQ-13-13,1.902,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,63.88,Doubtful,C3,S1,C3-S1,0.6666666666666666,Pass
+AQ-13-14,1.622,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,50.58,Permissible,C3,S1,C3-S1,0.6683107274969173,Pass
+AQ-13-15,1.672,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,36.38,Good,C3,S1,C3-S1,0.6656698564593302,Pass
+AQ-14-01,1.4,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Review,Caution,نیازمند احتیاط,yellow,66.41,Doubtful,C3,S1,C3-S1,0.65,Pass
+AQ-14-02,1.82,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,68.81,Doubtful,C3,S1,C3-S1,0.6510989010989011,Pass
+AQ-14-03,2.33,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,65.49,Doubtful,C4,S1,C4-S1,0.628755364806867,Pass
+AQ-14-04,0.948,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,42.83,Permissible,C3,S1,C3-S1,0.629746835443038,Pass
+AQ-14-05,2.578,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,66.14,Doubtful,C4,S1,C4-S1,0.6299456943366951,Pass
+AQ-14-06,1.281,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,60.07,Doubtful,C3,S1,C3-S1,0.629976580796253,Pass
+AQ-14-07,2.83,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,61.03,Doubtful,C4,S1,C4-S1,0.6300353356890459,Pass
+AQ-14-08,1.74,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,60.61,Doubtful,C3,S1,C3-S1,0.6298850574712643,Pass
+AQ-14-09,1.61,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,60.48,Doubtful,C3,S1,C3-S1,0.6298136645962733,Pass
+AQ-14-10,2.06,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,65.29,Doubtful,C3,S1,C3-S1,0.5922330097087378,Pass
+AQ-14-11,1.741,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,64.14,Doubtful,C3,S1,C3-S1,0.65,Pass
+AQ-14-12,2.65,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,68.21,Doubtful,C4,S1,C4-S1,0.65,Pass
+AQ-14-13,2.17,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,63.96,Doubtful,C3,S1,C3-S1,0.65,Pass
+AQ-14-14,1.489,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,63.44,Doubtful,C3,S1,C3-S1,0.65,Pass
+AQ-14-15,3.08,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,65.57,Doubtful,C4,S1,C4-S1,0.65,Pass
+AQ-15-01,14.915,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.96,Doubtful,C4,S4,C4-S4,0.6999664767013074,Pass
+AQ-15-02,12.82,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.15,Doubtful,C4,S3,C4-S3,0.6801872074882995,Pass
+AQ-15-03,9.955,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,70.99,Doubtful,C4,S3,C4-S3,0.6499246609743847,Pass
+AQ-15-04,3.485,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,68.82,Doubtful,C4,S2,C4-S2,0.703012912482066,Pass
+AQ-15-05,5.35,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,67.8,Doubtful,C4,S2,C4-S2,0.7009345794392523,Pass
+AQ-15-06,17.64,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,76.09,Doubtful,C4,S4,C4-S4,0.75,Pass
+AQ-15-07,7.265,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,76.36,Doubtful,C4,S3,C4-S3,0.805230557467309,Review
+AQ-15-08,20.91,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,78.56,Doubtful,C4,S4,C4-S4,0.7001434720229556,Pass
+AQ-15-09,15.944,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.34,Doubtful,C4,S4,C4-S4,0.6999498243853487,Pass
+AQ-15-10,24.116,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.84,Doubtful,C4,S4,C4-S4,0.6999917067507049,Pass
+AQ-15-11,22.6,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.08,Doubtful,C4,S4,C4-S4,0.7,Pass
+AQ-15-12,19.76,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,64.88,Doubtful,C4,S3,C4-S3,0.7,Pass
+AQ-15-13,11.66,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.06,Doubtful,C4,S3,C4-S3,0.7,Pass
+AQ-15-14,35.1,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.42,Doubtful,C4,S4,C4-S4,0.7,Pass
+AQ-15-15,13.96,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,74.49,Doubtful,C4,S3,C4-S3,0.7,Pass
+AQ-16-01,9.613,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,78.39,Doubtful,C4,S3,C4-S3,0.6277956933319463,Pass
+AQ-16-02,7.9,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,78.2,Doubtful,C4,S3,C4-S3,0.5474683544303798,Review
+AQ-16-03,7.3,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.62,Doubtful,C4,S2,C4-S2,0.65,Pass
+AQ-16-04,8.81,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,81.82,Unsuitable,C4,S3,C4-S3,0.6503972758229285,Pass
+AQ-16-05,8.015,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.97,Doubtful,C4,S3,C4-S3,0.6500311915159077,Pass
+AQ-16-06,12.8,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,84.25,Unsuitable,C4,S4,C4-S4,0.65,Pass
+AQ-16-07,13.995,Severe,Severe,Severe,Outside-FAO-table,Normal,Severe restriction,نامناسب / محدودیت شدید,red,82.96,Unsuitable,C4,S4,C4-S4,0.6453733476241514,Pass
+AQ-16-08,11.17,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,86.53,Unsuitable,C4,S4,C4-S4,0.6499552372426142,Pass
+AQ-16-09,19.3,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,78.98,Doubtful,C4,S4,C4-S4,0.65,Pass
+AQ-16-10,24.0,Severe,Severe,Severe,Outside-FAO-table,Normal,Severe restriction,نامناسب / محدودیت شدید,red,86.7,Unsuitable,C4,S4,C4-S4,0.65,Pass
+AQ-16-11,11.5,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,59.31,Permissible,C4,S1,C4-S1,0.65,Pass
+AQ-16-12,13.07,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,84.6,Unsuitable,C4,S4,C4-S4,0.65,Pass
+AQ-16-13,16.12,Severe,Severe,Severe,Outside-FAO-table,Normal,Severe restriction,نامناسب / محدودیت شدید,red,85.94,Unsuitable,C4,S4,C4-S4,0.65,Pass
+AQ-16-14,4.1,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,81.99,Unsuitable,C4,S3,C4-S3,0.65,Pass
+AQ-16-15,0.88,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,45.56,Permissible,C3,S1,C3-S1,0.65,Pass
+AQ-17-01,2.84,Slight-Moderate,Slight-Moderate,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,69.5,Doubtful,C4,S1,C4-S1,0.5799295774647887,Pass
+AQ-17-02,13.0,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.86,Doubtful,C4,S3,C4-S3,0.6923076923076923,Pass
+AQ-17-03,5.18,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,72.73,Doubtful,C4,S2,C4-S2,0.5598455598455598,Pass
+AQ-17-04,3.03,Severe,Slight-Moderate,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,65.89,Doubtful,C4,S1,C4-S1,0.5511551155115512,Pass
+AQ-17-05,5.18,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,67.87,Doubtful,C4,S2,C4-S2,0.5733590733590733,Pass
+AQ-17-06,7.325,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.11,Doubtful,C4,S2,C4-S2,0.7003412969283277,Pass
+AQ-17-07,12.432,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.38,Doubtful,C4,S3,C4-S3,0.6998069498069498,Pass
+AQ-17-08,5.668,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.55,Doubtful,C4,S2,C4-S2,0.6224417784050812,Pass
+AQ-17-09,14.529,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.78,Doubtful,C4,S3,C4-S3,0.6161470163122031,Pass
+AQ-17-10,3.223,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,75.26,Doubtful,C4,S2,C4-S2,0.6400868755817561,Pass
+AQ-17-11,2.242,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,61.64,Doubtful,C3,S1,C3-S1,0.6378233719892953,Pass
+AQ-17-12,2.943,Slight-Moderate,Slight-Moderate,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,68.64,Doubtful,C4,S1,C4-S1,0.6401630988786952,Pass
+AQ-17-13,2.648,Slight-Moderate,Slight-Moderate,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,69.94,Doubtful,C4,S1,C4-S1,0.6401057401812689,Pass
+AQ-17-14,4.124,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,75.61,Doubtful,C4,S2,C4-S2,0.6500969932104753,Pass
+AQ-17-15,5.046,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,77.41,Doubtful,C4,S2,C4-S2,0.6399128022195799,Pass
+AQ-18-01,2.61,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,55.0,Permissible,C4,S1,C4-S1,0.6601532567049808,Pass
+AQ-18-02,2.39,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.9,Permissible,C4,S1,C4-S1,0.6158995815899582,Pass
+AQ-18-03,2.62,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Review,Caution,نیازمند احتیاط,yellow,46.99,Permissible,C4,S1,C4-S1,0.6851145038167938,Pass
+AQ-18-04,2.99,Slight-Moderate,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,50.98,Permissible,C4,S1,C4-S1,0.6806020066889632,Pass
+AQ-18-05,3.2,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,52.73,Permissible,C4,S1,C4-S1,0.6790625,Pass
+AQ-18-06,6.734,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,55.44,Permissible,C4,S2,C4-S2,0.7068607068607069,Pass
+AQ-18-07,6.966,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,56.37,Permissible,C4,S2,C4-S2,0.6886304909560723,Pass
+AQ-18-08,5.437,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,58.64,Permissible,C4,S2,C4-S2,0.6924774691925695,Pass
+AQ-18-09,5.28,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,54.62,Permissible,C4,S1,C4-S1,0.6585227272727273,Pass
+AQ-18-10,8.1,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,57.45,Permissible,C4,S2,C4-S2,0.6507407407407407,Pass
+AQ-18-11,3.784,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,56.27,Permissible,C4,S1,C4-S1,0.5924947145877378,Pass
+AQ-18-12,1.743,Slight-Moderate,Slight-Moderate,None,None,Normal,Caution,نیازمند احتیاط,yellow,34.43,Good,C3,S1,C3-S1,0.642570281124498,Pass
+AQ-18-13,4.403,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,52.81,Permissible,C4,S1,C4-S1,0.6472859414035884,Pass
+AQ-18-14,2.91,Slight-Moderate,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,44.29,Permissible,C4,S1,C4-S1,0.7525773195876289,Review
+AQ-18-15,4.904,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,56.31,Permissible,C4,S1,C4-S1,0.7326672104404568,Pass
+AQ-19-01,10.45,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,82.86,Unsuitable,C4,S4,C4-S4,0.7,Pass
+AQ-19-02,13.985,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,82.91,Unsuitable,C4,S4,C4-S4,0.700035752592063,Pass
+AQ-19-03,15.91,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,82.14,Unsuitable,C4,S4,C4-S4,0.7498428661219358,Pass
+AQ-19-04,20.87,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,82.6,Unsuitable,C4,S4,C4-S4,0.7999520843315764,Review
+AQ-19-05,0.836,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,68.22,Doubtful,C3,S1,C3-S1,0.5502392344497608,Pass
+AQ-19-06,0.74,Slight-Moderate,None,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,66.08,Doubtful,C2,S1,C2-S1,0.55,Pass
+AQ-19-07,5.215,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,80.05,Unsuitable,C4,S3,C4-S3,0.660594439117929,Pass
+AQ-19-08,13.285,Severe,Severe,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,86.11,Unsuitable,C4,S4,C4-S4,0.7500940910801656,Review
+AQ-19-09,0.635,None,None,Slight-Moderate,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,62.0,Doubtful,C2,S1,C2-S1,0.5511811023622047,Pass
+AQ-19-10,0.65,None,None,Slight-Moderate,Slight-Moderate,Review,Caution,نیازمند احتیاط,yellow,80.58,Unsuitable,C2,S1,C2-S1,0.5461538461538461,Review
+AQ-19-11,2.03,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,73.47,Doubtful,C3,S1,C3-S1,0.6403940886699507,Pass
+AQ-19-12,2.735,Slight-Moderate,Slight-Moderate,Severe,None,Review,Severe restriction,نامناسب / محدودیت شدید,red,75.31,Doubtful,C4,S2,C4-S2,0.6398537477148081,Pass
+AQ-19-13,0.635,None,None,None,Slight-Moderate,Normal,Suitable,مناسب,green,57.27,Permissible,C2,S1,C2-S1,0.5511811023622047,Pass
+AQ-19-14,1.195,Slight-Moderate,Slight-Moderate,Slight-Moderate,Slight-Moderate,Normal,Caution,نیازمند احتیاط,yellow,70.92,Doubtful,C3,S1,C3-S1,0.6401673640167364,Pass
+AQ-19-15,3.4,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,73.77,Doubtful,C4,S2,C4-S2,0.65,Pass
+AQ-20-01,3.248,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,59.19,Permissible,C4,S1,C4-S1,0.6299261083743842,Pass
+AQ-20-02,4.84,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,76.03,Doubtful,C4,S2,C4-S2,0.6049586776859505,Pass
+AQ-20-03,3.48,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.4,Doubtful,C4,S2,C4-S2,0.8218390804597702,Review
+AQ-20-04,3.84,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.19,Doubtful,C4,S2,C4-S2,0.6473958333333333,Pass
+AQ-20-05,5.896,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,75.86,Doubtful,C4,S2,C4-S2,0.6148236092265943,Pass
+AQ-20-06,3.86,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,72.01,Doubtful,C4,S2,C4-S2,0.6585492227979275,Pass
+AQ-20-07,5.863,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.5,Doubtful,C4,S2,C4-S2,0.6145318096537609,Pass
+AQ-20-08,5.27,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,72.07,Doubtful,C4,S2,C4-S2,0.6,Pass
+AQ-20-09,5.396,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,74.07,Doubtful,C4,S2,C4-S2,0.5722757598220904,Pass
+AQ-20-10,2.988,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,45.37,Permissible,C4,S1,C4-S1,0.642235609103079,Pass
+AQ-20-11,4.738,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,68.99,Doubtful,C4,S2,C4-S2,0.7984381595609962,Review
+AQ-20-12,5.411,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,56.53,Permissible,C4,S1,C4-S1,0.6119016817593791,Pass
+AQ-20-13,2.814,Slight-Moderate,Slight-Moderate,Slight-Moderate,None,Normal,Caution,نیازمند احتیاط,yellow,49.92,Permissible,C4,S1,C4-S1,0.6492537313432836,Pass
+AQ-20-14,5.237,Severe,Severe,Slight-Moderate,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,55.5,Permissible,C4,S1,C4-S1,0.6748138247088028,Pass
+AQ-20-15,7.54,Severe,Severe,Severe,None,Normal,Severe restriction,نامناسب / محدودیت شدید,red,55.8,Permissible,C4,S2,C4-S2,0.6511936339522546,Pass

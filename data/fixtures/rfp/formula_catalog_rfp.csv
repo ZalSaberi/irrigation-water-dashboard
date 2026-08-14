@@ -1,0 +1,8 @@
+﻿formula_id,purpose,formula_or_rule,inputs,output_unit,implementation_priority,source
+UNIT-EC-01,Normalize EC,EC[dS/m] = EC[µS/cm] / 1000,EC µS/cm,dS/m,Required,FAO uses dS/m
+SAR-01,Calculate SAR from raw ions,SAR = Na / sqrt((Ca + Mg)/2),"Na,Ca,Mg in meq/L",dimensionless,Required for scientific validation; optional for user entry,Richards 1954 / FAO
+NA-01,Calculate sodium percentage,Na% = 100*(Na + K)/(Ca + Mg + Na + K),"Na,K,Ca,Mg in meq/L",%,Secondary,Wilcox method
+TH-01,Calculate total hardness,TH = 50*(Ca + Mg),"Ca,Mg in meq/L",mg/L as CaCO3,Optional,Hydrochemistry support
+IB-01,Ionic charge balance,IB% = 100*(ΣCations-ΣAnions)/(ΣCations+ΣAnions),major ions in meq/L,%,Internal QA/QC,Scientific Data 2025; acceptable |IB| <= 10%
+TDS-EC-QC-01,TDS/EC plausibility check,factor = TDS(mg/L) / EC(µS/cm),"TDS,EC",ratio,Internal QA/QC,Typical factor 0.55-0.75; source study observed mainly 0.6-0.7
+APP-STATUS-01,Dashboard green/yellow/red,"severity = max(EC salinity, TDS salinity, SAR surface-toxicity, pH warning); EC-SAR infiltration remains a separate diagnostic","classified pH, EC, TDS, SAR",status/color,Required,Application-specific MVP summary; explicitly not an FAO index

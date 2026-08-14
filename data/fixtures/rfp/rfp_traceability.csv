@@ -1,0 +1,9 @@
+﻿RFP_item,requirement,prepared_artifact,coverage
+3,User enters water-analysis data and sees health/suitability and trends,rfp_input_20_sources.csv + rfp_reference_answers.csv,20 real sources with 15 chronological observations each
+4-input,"Required inputs: pH, EC, TDS, SAR",rfp_input_20_sources.csv + data_dictionary.csv,Exact four required parameters plus metadata/units
+4-processing,Agricultural standard formulas such as Wilcox or FAO,standards_rfp.csv + formula_catalog_rfp.csv,FAO selected as primary; Wilcox Na% kept as secondary support
+4-visual,Line/bar charts and green/yellow/red status,rfp_reference_answers.csv,Expected dashboard color and classifications are precomputed
+5-data,At least 10-20 wells or water sources for testing,selected_sources.csv,Exactly 20 real river monitoring sources from 20 sub-basins
+6-auto-update,Dashboard updates when new data are entered,input_template.csv,Stable import schema for new rows
+6-charts,Exported classification charts,rfp_reference_answers.csv,Contains EC/SAR/overall classes needed to build charts
+6-report,Report contains formulas used,formula_catalog_rfp.csv + standards_rfp.csv,"Rules, units, thresholds, and references documented"

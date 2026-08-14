@@ -1,0 +1,2 @@
+﻿sample_id,source_id,source_type,sub_basin,river,sample_date,pH,EC_value,EC_unit,TDS_value,TDS_unit,SAR,SAR_unit
+EXAMPLE-001,SOURCE-01,Well / river / spring,Example basin,Example source,2026-01-01,7.2,650,µS/cm,420,mg/L,2.5,dimensionless

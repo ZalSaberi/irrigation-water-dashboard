@@ -1,0 +1,21 @@
+﻿source_no,station_code,sub_basin,river,available_complete_records,rows_in_demo,first_demo_year,last_demo_year,dominant_FAO_EC_level
+1,26-023,Mehran,Roudbal,491,15,1967,2020,None
+2,31-037,Lake Urmia,Gmbrf chai,466,15,1967,2020,None
+3,12-007,Gorgan,Oghan,528,15,1968,2020,None
+4,21-147,Karkheh,Seimareh,494,15,1968,2020,None
+5,13-029,Qaresou,Tajan,438,15,1968,2020,None
+6,46-003,Saghand Desert,Haft kosak,393,15,1967,2019,None
+7,43-039,Bakhtegan,Kor,544,15,1966,2020,Slight-Moderate
+8,24-003,Karian,Ghareh‌aghaj,379,15,1966,2020,Slight-Moderate
+9,21-185,West Boundary River,Karkheh,1194,15,1967,2020,Slight-Moderate
+10,21-199,Great karoon,Karkheh,624,15,1967,2020,Slight-Moderate
+11,22-017,Jarrahi,Maron,618,15,1967,2020,Slight-Moderate
+12,41-007,Salt Lake,Ghaheroud,554,15,1967,2020,Slight-Moderate
+13,47-015,Central Desert,Hableh roud,346,15,1967,2020,Slight-Moderate
+14,17-025,Sefid-roud,Gharangho,338,15,1967,2020,Slight-Moderate
+15,42-025,Gavkhouni,Zayandeh roud,474,15,1966,2020,Severe
+16,19-039,Aras,Zilbarchai,198,15,1975,2020,Severe
+17,27-003,Sedij,Jamash,332,15,1982,2020,Severe
+18,23-015,Helleh,Dariacheh‌ prishan‌,244,15,1972,2000,Severe
+19,53-011,Hirmand,Driachh hamon,36,15,1984,1996,Slight-Moderate
+20,23-025,Atrak,Dalaki,950,15,1967,2020,Severe

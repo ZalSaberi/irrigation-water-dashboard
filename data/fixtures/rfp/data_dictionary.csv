@@ -1,0 +1,14 @@
+﻿field,required_for_RFP_input,type,base_unit,description,validation
+sample_id,yes,string,-,Unique sample/observation id,"non-empty, unique"
+source_id,yes,string,-,Water source / monitoring station id,non-empty
+source_type,yes,string,-,Type of water source,controlled text
+sample_date,recommended,date/string,YYYY-MM-DD,Used for trend charts,valid date if provided
+pH,yes,float,-,Acidity/basicity,numeric 0..14; FAO normal 6.5..8.4
+EC_value,yes,float,µS/cm preferred,Electrical conductivity / salinity,non-negative; accept µS/cm or dS/m
+EC_unit,yes,enum,µS/cm,EC unit,µS/cm or dS/m
+TDS_value,yes,float,mg/L,Total dissolved solids,non-negative
+TDS_unit,yes,enum,mg/L,TDS unit,mg/L for MVP
+SAR,yes,float,dimensionless,Sodium adsorption ratio,non-negative
+SAR_unit,yes,enum,dimensionless,SAR unit,dimensionless
+Na_percent,no,float,%,Supports Wilcox sodium-percentage classification,0..100
+Ca/Mg/Na/K,no,float,meq/L,Allow independent SAR/Na% recomputation,non-negative

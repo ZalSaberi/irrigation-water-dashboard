@@ -1,0 +1,12 @@
+﻿rule_id,profile,parameter_or_rule,unit,green_or_none,yellow_or_caution,red_or_severe,notes,source_url
+FAO-EC-01,RFP_PRIMARY_FAO,EC,dS/m,< 0.7,0.7 to 3.0,> 3.0,Degree of restriction on use due to salinity.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-TDS-01,RFP_PRIMARY_FAO,TDS,mg/L,< 450,450 to 2000,> 2000,Alternative salinity metric to EC.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-SAR-TOX-01,RFP_PRIMARY_FAO,SAR - sodium toxicity for surface irrigation,dimensionless,< 3,3 to 9,> 9,Specific ion toxicity guideline; crop sensitivity still matters.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-PH-01,RFP_PRIMARY_FAO,pH,-,6.5 to 8.4,outside 6.5 to 8.4 -> Review,-,"FAO describes 6.5-8.4 as the normal range; abnormal pH is a warning, not by itself a severe-use class.",https://www.fao.org/4/T0234e/T0234E06.htm
+FAO-INF-01,RFP_PRIMARY_FAO,Infiltration: SAR 0-<3 + EC,dS/m,EC > 0.7,0.2 <= EC <= 0.7,EC < 0.2,Evaluate EC and SAR together.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-INF-02,RFP_PRIMARY_FAO,Infiltration: SAR 3-<6 + EC,dS/m,EC > 1.2,0.3 <= EC <= 1.2,EC < 0.3,Evaluate EC and SAR together.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-INF-03,RFP_PRIMARY_FAO,Infiltration: SAR 6-<12 + EC,dS/m,EC > 1.9,0.5 <= EC <= 1.9,EC < 0.5,Evaluate EC and SAR together.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-INF-04,RFP_PRIMARY_FAO,Infiltration: SAR 12-<20 + EC,dS/m,EC > 2.9,1.3 <= EC <= 2.9,EC < 1.3,Evaluate EC and SAR together.,https://www.fao.org/4/T0234e/T0234E01.htm
+FAO-INF-05,RFP_PRIMARY_FAO,Infiltration: SAR 20-40 + EC,dS/m,EC > 5.0,2.9 <= EC <= 5.0,EC < 2.9,SAR > 40 is outside this FAO table and should be flagged for expert review.,https://www.fao.org/4/T0234e/T0234E01.htm
+APP-OVERALL-01,APPLICATION_RULE,Overall dashboard color,-,EC/TDS/SAR primary classes green/none and pH normal,"at least one EC/TDS/SAR slight-moderate or pH review, and no severe",at least one EC/TDS/SAR severe,MVP summary color for the four mandatory RFP inputs. FAO EC-SAR infiltration is shown separately as a diagnostic/warning and is not collapsed into this single color.,
+WILCOX-NA-01,SECONDARY_WILCOX,Na%,%,<20 excellent; 20-<40 good,40-<60 permissible; 60-<80 doubtful,>=80 unsuitable,"Secondary support only. Requires Na% or raw Na,K,Ca,Mg; not one of the four mandatory RFP inputs.",https://doi.org/10.1029/2021EA001793
