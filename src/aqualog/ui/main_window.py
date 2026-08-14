@@ -101,7 +101,7 @@ class MainWindow(QMainWindow):
         side.addWidget(subtitle)
         side.addSpacing(8)
 
-        # Three large navigation boxes use the available middle space.
+        # Navigation fills the flexible middle section of the sidebar.
         nav_wrap = QWidget()
         nav_layout = QVBoxLayout(nav_wrap)
         nav_layout.setContentsMargins(0, 0, 0, 0)
@@ -124,12 +124,11 @@ class MainWindow(QMainWindow):
 
         side.addWidget(nav_wrap, 1)
 
-        # Development card stays toward the lower section.
+        # Keep team information anchored near the bottom of the sidebar.
         self.team = TeamCard()
         side.addWidget(self.team, 0)
 
-        # Grovity logo card. User should place the logo at:
-        # src/aqualog/resources/images/grovity_logo.png
+        # Load the bundled Grovity mark when the image asset is available.
         self.logo_card = QFrame()
         self.logo_card.setObjectName("SidebarLogoCard")
         self.logo_card.setFixedHeight(118)
@@ -161,7 +160,7 @@ class MainWindow(QMainWindow):
             )
             self.logo_card.setVisible(True)
         else:
-            # Hide the empty card until the real image is added to the expected path.
+            # Avoid reserving empty space when the logo asset is missing.
             self.logo_card.setVisible(False)
 
         logo_layout.addWidget(self.logo_label)

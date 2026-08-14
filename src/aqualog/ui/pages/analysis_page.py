@@ -93,7 +93,7 @@ class AnalysisPage(QWidget):
         )
         layout.setSpacing(4)
 
-        # Header مستقل برای هر Field
+        # Give each field a full-width header so RTL alignment stays predictable.
         field_header = QWidget()
         field_header.setLayoutDirection(
             Qt.LayoutDirection.LeftToRight
@@ -118,8 +118,7 @@ class AnalysisPage(QWidget):
         )
         title.setWordWrap(False)
 
-        # The label owns the full width of its field.  AlignAbsolute is essential:
-        # AlignRight alone is mirrored by Qt in an RTL widget and can land on the left.
+        # AlignAbsolute prevents Qt from mirroring the label to the wrong side.
         field_header_layout.addWidget(title, 1)
 
         layout.addWidget(
@@ -187,9 +186,7 @@ class AnalysisPage(QWidget):
         result_layout.setSpacing(12)
 
         hero = Card(soft=True)
-        # This row is deliberately physical LTR: the text block fills the left/middle
-        # and the status pill is pinned to the physical right edge.  The text itself
-        # remains true RTL and is right-aligned inside its expanding block.
+        # Use physical LTR ordering so the status pill stays right while text remains RTL.
         hero.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         hb = QHBoxLayout(hero)
         hb.setContentsMargins(14, 12, 14, 12)
@@ -321,7 +318,7 @@ class AnalysisPage(QWidget):
 
         form_card = Card()
 
-        # جهت فیزیکی خود کارت فارسی است
+        # The form follows RTL flow because its labels and controls are Persian.
         form_card.setLayoutDirection(
             Qt.LayoutDirection.RightToLeft
         )
@@ -379,7 +376,7 @@ class AnalysisPage(QWidget):
 
         fields = QGridLayout()
 
-        # ستون‌بندی فرم از سمت راست شروع می‌شود.
+        # Build form columns from right to left.
         fields.setOriginCorner(
             Qt.Corner.TopRightCorner
         )
@@ -418,9 +415,7 @@ class AnalysisPage(QWidget):
         imp = QPushButton("ورود از فایل")
         imp.clicked.connect(self._select_import)
 
-        # Physical Persian action order:
-        # [empty space] [ورود از فایل] [پاک کردن فرم] [تحلیل و ذخیره]
-        # so the primary action is the right-most button.
+        # Keep the primary action at the physical right edge of the button row.
         actions.addStretch(1)
         actions.addWidget(imp)
         actions.addWidget(clear)

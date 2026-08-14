@@ -11,8 +11,7 @@ def build_overall_assessment(
     tds: ParameterAssessment,
     sar: ParameterAssessment,
 ) -> OverallAssessment:
-    # RFP application summary rule. The FAO EC-SAR infiltration diagnostic is
-    # intentionally kept separate instead of being collapsed into this card.
+    # Keep the EC-SAR infiltration diagnostic separate from the RFP summary status.
     levels = (ph.level, ec.level, tds.level, sar.level)
 
     if RestrictionLevel.SEVERE in levels:

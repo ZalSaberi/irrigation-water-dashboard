@@ -1,46 +1,42 @@
-# Python
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
 *.pyo
-
-# Virtual environment
-.venv/
-venv/
-
-# Tests
 .pytest_cache/
 .coverage
 htmlcov/
 
-# IDE
+# Virtual environments
+.venv/
+venv/
+
+# IDE and OS files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-# Runtime data
-*.db
-*.sqlite
-*.sqlite3
-data/database/*
-!data/database/.gitkeep
-
-# Build
+# Build and packaging output
 build/
 dist/
 *.egg-info/
 
-# Exports
+# Runtime data
+data/database/*
+!data/database/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Local output
 exports/
 logs/
 
-# OS
-.DS_Store
-Thumbs.db
-_source/
-_source/
-*.egg-info/
-
-# Local code backups
+# Temporary delivery and backup artifacts
+*.zip
 *.bak
 *.bak2
 *.before_*
 *.pre_*
+_source/

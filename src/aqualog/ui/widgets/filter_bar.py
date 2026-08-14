@@ -7,13 +7,7 @@ from aqualog.ui.services_types import DashboardFilterState
 
 
 class FilterComboBox(QComboBox):
-    """
-    ComboBox مخصوص فیلترهای داشبورد.
-
-    در تم Dark و RTL، indicator پیش‌فرض Qt ممکن است
-    به دلیل QSS دیده نشود. این کلاس یک chevron واقعی
-    و همیشه قابل مشاهده در سمت چپ ComboBox قرار می‌دهد.
-    """
+    """Dashboard combo box with a reliable RTL chevron and full-area click target."""
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -28,7 +22,7 @@ class FilterComboBox(QComboBox):
             Qt.AlignmentFlag.AlignCenter
         )
 
-        # کلیک روی فلش باید به خود ComboBox برسد
+        # Let the native combo box handle clicks on the chevron.
         self._chevron.setAttribute(
             Qt.WidgetAttribute.WA_TransparentForMouseEvents,
             True,
@@ -55,27 +49,22 @@ class FilterComboBox(QComboBox):
         self._chevron.raise_()
 
     def setEditable(self, editable: bool) -> None:
-        """
-        حتی وقتی ComboBox برای وسط‌چین کردن متن editable است،
-        کلیک روی LineEdit باید Popup را باز کند.
-        """
+        """Keep the text field read-only while allowing it to open the popup."""
         super().setEditable(editable)
 
         if editable and self.lineEdit() is not None:
             self.lineEdit().setReadOnly(True)
 
-            # کلیک روی بخش متن را خودمان مدیریت می‌کنیم.
+            # Open the popup when the user clicks the text area.
             self.lineEdit().installEventFilter(self)
 
-            # Cursor نیز نشان می‌دهد کل کنترل clickable است.
+            # Use a pointing cursor across the full interactive control.
             self.lineEdit().setCursor(
                 Qt.CursorShape.PointingHandCursor
             )
 
     def eventFilter(self, watched, event):
-        """
-        کلیک روی قسمت متنی QComboBox نیز Popup را باز می‌کند.
-        """
+        """Open the popup when the embedded line edit receives a left click."""
         if (
             self.lineEdit() is not None
             and watched is self.lineEdit()
@@ -95,9 +84,7 @@ class FilterComboBox(QComboBox):
         )
 
     def mousePressEvent(self, event):
-        """
-        کلیک روی هر نقطه از خود ComboBox = باز شدن منو.
-        """
+        """Open the popup from any left click on the combo box."""
         if (
             event.button()
             == Qt.MouseButton.LeftButton
@@ -111,8 +98,7 @@ class FilterComboBox(QComboBox):
     def resizeEvent(self, event):
         super().resizeEvent(event)
 
-        # RTL:
-        # indicator در سمت چپ ComboBox
+        # In RTL mode the chevron is placed on the physical left.
         x = 9
         y = (
             self.height()

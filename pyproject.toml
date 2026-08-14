@@ -3,10 +3,17 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aqualog-irrigation"
+name = "grovity-irrigation-water"
 version = "0.1.0"
-description = "Irrigation water quality analysis dashboard"
+description = "Persian desktop dashboard for irrigation-water quality monitoring and analysis."
+readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    { name = "Grovity Software Team" },
+]
+
+[project.urls]
+Repository = "https://github.com/ZalSaberi/irrigation-water-dashboard"
 
 [tool.setuptools.packages.find]
 where = ["src"]

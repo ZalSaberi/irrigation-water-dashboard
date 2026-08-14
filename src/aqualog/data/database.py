@@ -70,11 +70,7 @@ CREATE INDEX IF NOT EXISTS idx_analysis_sample
 
 
 class SQLiteDatabase:
-    """Small SQLite wrapper used by repositories and services.
-
-    Connections are intentionally short-lived. This keeps the layer safe for a
-    future PyQt application where reads and writes may happen from workers.
-    """
+    """Manage short-lived SQLite connections for repositories and services."""
 
     def __init__(self, path: str | Path):
         self.path = Path(path)

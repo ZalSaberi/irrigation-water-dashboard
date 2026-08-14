@@ -74,13 +74,7 @@ class TrendChart(QWidget):
 
     @classmethod
     def _date_to_epoch(cls, value: str) -> float | None:
-        """Convert ISO date to Unix-like seconds without datetime.timestamp().
-
-        datetime.timestamp() on Windows can fail for dates before 1970.
-        The RFP fixture contains records from the 1960s, so use pure Python
-        datetime arithmetic instead. Invalid source dates are ignored by charts
-        rather than crashing the entire dashboard.
-        """
+        """Convert ISO dates without relying on platform-specific pre-1970 timestamps."""
         try:
             dt = datetime.fromisoformat(str(value)[:10])
         except (TypeError, ValueError):

@@ -14,15 +14,14 @@ class HeaderBar(QFrame):
         self.setObjectName("TopBar")
         self.setFixedHeight(88)
 
-        # Use an explicit physical LTR container and place the Persian product
-        # title as the last item.  This avoids Qt mirroring AlignRight in RTL mode.
+        # Keep physical widget ordering LTR while the Persian title itself remains RTL.
         self.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         root = QHBoxLayout(self)
         root.setContentsMargins(6, 6, 0, 10)
         root.setSpacing(14)
         root.setDirection(QHBoxLayout.Direction.LeftToRight)
 
-        # Operational status stays on the physical left.
+        # Operational controls stay on the physical left side of the header.
         actions_widget = QFrame()
         actions_widget.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         actions = QHBoxLayout(actions_widget)
@@ -67,7 +66,7 @@ class HeaderBar(QFrame):
         root.addWidget(self.hero_title, 0)
 
     def set_page(self, title: str, subtitle: str) -> None:
-        # The main dashboard header intentionally keeps the fixed product descriptor.
+        # The header uses a fixed product descriptor across pages.
         return
 
     def set_database_ok(self, ok: bool) -> None:

@@ -161,7 +161,7 @@ class DashboardPage(QWidget):
                 "font-weight:700;"
             )
 
-            # Physical composition: count on the left, Persian label + dot on the right.
+            # Keep the count left and the Persian status label right.
             row.addWidget(
                 count,
                 0,
@@ -189,11 +189,7 @@ class DashboardPage(QWidget):
 
         trend_header = QWidget()
 
-        # IMPORTANT:
-        # Header geometry is intentionally physical LTR.
-        # Persian text itself remains true RTL.
-        # Grid column 0 = physical LEFT
-        # Grid column 2 = physical RIGHT
+        # Header geometry is physical LTR; Persian labels keep their own RTL direction.
         trend_header.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
 
         top = QGridLayout(trend_header)
@@ -206,7 +202,6 @@ class DashboardPage(QWidget):
         top.setColumnStretch(1, 1)
         top.setColumnStretch(2, 0)
 
-        # ---------------- PHYSICAL LEFT ----------------
         self.parameter = QComboBox()
         self.parameter.addItem("EC", "ec")
         self.parameter.addItem("TDS", "tds")
@@ -224,11 +219,9 @@ class DashboardPage(QWidget):
             | Qt.AlignmentFlag.AlignTop,
         )
 
-        # ---------------- PHYSICAL RIGHT ----------------
         trend_titles = QWidget()
 
-        # Container uses physical coordinates.
-        # Only labels themselves are RTL.
+        # The container uses physical coordinates; labels handle RTL text independently.
         trend_titles.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         trend_titles.setSizePolicy(
             QSizePolicy.Policy.Preferred,
@@ -293,7 +286,7 @@ class DashboardPage(QWidget):
 
         recent_header = QWidget()
 
-        # Same physical positioning strategy as trend header.
+        # Match the trend header geometry for consistent alignment.
         recent_header.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
 
         rh = QGridLayout(recent_header)
@@ -306,7 +299,6 @@ class DashboardPage(QWidget):
         rh.setColumnStretch(1, 1)
         rh.setColumnStretch(2, 0)
 
-        # ---------------- PHYSICAL LEFT ----------------
         all_btn = QPushButton("مشاهده همه")
         all_btn.setProperty("variant", "ghost")
         all_btn.clicked.connect(self.open_archive_requested)
@@ -319,7 +311,6 @@ class DashboardPage(QWidget):
             | Qt.AlignmentFlag.AlignTop,
         )
 
-        # ---------------- PHYSICAL RIGHT ----------------
         recent_titles = QWidget()
         recent_titles.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         recent_titles.setSizePolicy(
@@ -372,8 +363,7 @@ class DashboardPage(QWidget):
 
         self.table = QTableView()
 
-        # فقط جدول آخرین نمونه‌ها؛
-        # هیچ جدول یا المان دیگری تغییر نمی‌کند.
+        # Keep this compact table focused on the most recent samples.
         self.table.setStyleSheet("""
             QTableView {
                 font-size: 13px;
@@ -412,18 +402,16 @@ class DashboardPage(QWidget):
 
         self.table.verticalHeader().hide()
 
-        # پنج ردیف با ارتفاع خوانا
+        # Reserve enough height for five readable rows.
         self.table.verticalHeader().setDefaultSectionSize(
             32
         )
 
-        # Header خواناتر
         self.table.horizontalHeader().setFixedHeight(
             36
         )
 
 
-        # پنج ردیف کامل در فضای فعلی جدول
 
         self.table.horizontalHeader().setStretchLastSection(
             True
@@ -450,7 +438,7 @@ class DashboardPage(QWidget):
             Qt.ScrollBarPolicy.ScrollBarAlwaysOff
         )
 
-        # 32px header + پنج ردیف 25px + فضای border
+        # Size the card to fit the header, five rows, and the border cleanly.
         self.table.setFixedHeight(200)
 
         rb.addWidget(self.table)

@@ -22,12 +22,7 @@ class MetricCard(Card):
         self.setMinimumHeight(78)
         self.setMaximumHeight(78)
 
-        # IMPORTANT:
-        # physical layout:
-        #
-        # LEFT                                 RIGHT
-        # [NUMBER]       [TITLE/SUBTITLE] [ICON]
-        #
+        # Use physical LTR ordering while the text block itself remains RTL.
         self.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
 
         root = QHBoxLayout(self)
@@ -35,7 +30,6 @@ class MetricCard(Card):
         root.setSpacing(10)
         root.setDirection(QHBoxLayout.Direction.LeftToRight)
 
-        # ---------------- Number / physical LEFT ----------------
         self.value_label = QLabel(str(value))
         self.value_label.setObjectName("MetricValue")
         self.value_label.setFixedWidth(68)
@@ -51,10 +45,9 @@ class MetricCard(Card):
             Qt.AlignmentFlag.AlignVCenter
         )
 
-        # فقط همین Stretch فضای کنترل‌شده ایجاد می‌کند
+        # A single stretch keeps spacing predictable across card widths.
         root.addStretch(1)
 
-        # ---------------- Text ----------------
         text_col = QVBoxLayout()
         text_col.setContentsMargins(0, 0, 0, 0)
         text_col.setSpacing(1)
@@ -92,7 +85,6 @@ class MetricCard(Card):
 
         root.addLayout(text_col)
 
-        # ---------------- Icon / physical RIGHT ----------------
         self.icon_holder = QLabel()
         self.icon_holder.setObjectName("MetricIconHolder")
         self.icon_holder.setFixedSize(44, 44)

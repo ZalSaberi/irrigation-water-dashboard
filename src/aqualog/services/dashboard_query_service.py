@@ -13,7 +13,7 @@ class DashboardFilters:
     status: str | None = None
     date_from: date | str | None = None
     date_to: date | str | None = None
-    date_preset: str | None = None  # None/all, 6m, 12m
+    date_preset: str | None = None  # Supported values: None, "all", "6m", and "12m".
     parameter: str = "ec"
 
 
@@ -65,11 +65,7 @@ class DashboardSnapshot:
 
 
 class DashboardQueryService:
-    """Read-model service tailored to the dashboard.
-
-    Widgets never execute SQL. One snapshot keeps KPI cards, charts and the table
-    coherent and prevents a page from showing mixed query states.
-    """
+    """Build consistent dashboard read models from the persisted sample data."""
 
     LATEST_ANALYSIS_CTE = """
     WITH latest_analysis AS (

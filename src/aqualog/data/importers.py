@@ -62,7 +62,8 @@ class TabularWaterSampleImporter:
         seen_ids: set[str] = set()
 
         for zero_index, row in dataframe.iterrows():
-            row_number = int(zero_index) + 2  # header is row 1
+            # User-facing row numbers include the header row.
+            row_number = int(zero_index) + 2
             raw_sample_id = self._clean_value(row.get("sample_id"))
             sample_id = None if raw_sample_id is None else str(raw_sample_id).strip()
             try:
